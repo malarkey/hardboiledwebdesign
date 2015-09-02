@@ -1,0 +1,186 @@
+.hb-transitions {
+position : relative;
+width : 710px; 
+height : 500px; 
+margin : 0 auto $vertical-spacing;
+background : transparent url(../assets/img/site/hgroup.png) no-repeat 50% 100px;
+font-size : .87em; 
+
+img {
+z-index : 2;
+position : absolute;
+top : 330px; 
+width : 110px;
+height : 160px;  
+border : $img-border-width solid $border-color;
+border-radius : $border-radius;
+box-sizing : border-box;
+cursor : pointer; }
+
+.item__header {
+@include font-size($font-size-plus-two);
+
+@include bp(bp4) {
+@include font-size($font-size-plus-three); }
+}
+
+
+
+
+// img
+
+#s01 img {
+left : 0; }
+
+#s02 img {
+left : 120px; }
+
+#s03 img {
+left : 240px; }
+
+#s04 img {
+left : 360px; }
+
+#s05 img {
+left : 480px; }
+
+#s06 img {
+left : 600px; }
+
+#s07 img {
+left : 720px; }
+
+#s08 img {
+left : 840px; }
+
+
+
+
+
+// item__description
+
+.item__description {
+z-index : 1;
+position : absolute; 
+top : 335px;
+left : 5px;
+width : 100px;
+height : 150px; 
+overflow : hidden; 
+opacity : 0; }
+
+#s01 .item__description {
+left : 0; }
+
+#s02 .item__description {
+left : 120px;  }
+
+#s03 .item__description {
+left : 240px;  }
+
+#s04 .item__description {
+left : 360px;  }
+
+#s05 .item__description {
+left : 480px;  }
+
+#s06 .item__description {
+left : 600px;  }
+
+#s07 .item__description {
+left : 720px;  }
+
+#s08 .item__description {
+left : 840px;  }
+
+#s01:target .item__description {
+background-image : url(../assets/img/site/example-transitions-01.jpg); }
+
+#s02:target .item__description {
+left : 120px; 
+background-image : url(../assets/img/site/example-transitions-02.jpg); }
+
+#s03:target .item__description {
+background-image : url(../assets/img/site/example-transitions-03.jpg); }
+
+#s04:target .item__description {
+background-image : url(../assets/img/site/example-transitions-04.jpg); }
+
+#s05:target .item__description {
+background-image : url(../assets/img/site/example-transitions-05.jpg); }
+
+#s06:target .item__description {
+background-image : url(../assets/img/site/example-transitions-06.jpg); }
+
+#s07:target .item__description {
+background-image : url(../assets/img/site/example-transitions-07.jpg); }
+
+#s08:target .item__description {
+background-image : url(../assets/img/site/example-transitions-08.jpg); }
+
+
+
+
+
+// item
+
+.item {
+
+.item__description {
+transition-property : width, height, opacity, top;
+transition-duration : .5s, .5s, .75s, .5s; }
+
+img {
+transition-duration : $transition-duration;
+transition-timing-function : $transition-timing-function; }
+
+}
+
+
+
+
+
+// target
+
+.item:target {
+
+.item__description {
+top : 0;
+left : 0!important;
+width : 100%;
+height : 320px; 
+padding : $gutter $gutter 0 190px;
+opacity : 1;
+background-color : $panel-bg;
+background-origin : padding-box;
+background-position : $gutter $gutter; 
+background-repeat : no-repeat;
+background-size : auto 220px;
+border : 6px solid $border-color;
+border-radius : $border-radius;
+box-shadow : 3px 3px 0 $shadow-color;
+box-sizing : border-box; }
+}
+
+
+
+
+// hover
+
+.item:hover {
+
+img {
+box-shadow : 3px 3px 0 $shadow-color;
+transform : scale(1.05);
+transform-origin : 50% 100%; }
+
+}
+
+
+}
+
+
+
+
+
+
