@@ -1,0 +1,9 @@
+*.psd
+*.sketch
+*.css
+*.esproj
+*.DS_Store
+scss/.sass-cache/
+*.html
+config.codekit
+*.css.map
