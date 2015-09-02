@@ -1,0 +1,263 @@
+// SYSTEM  ================================================
+
+$debug-mode						: false;
+$debug-color-error				: red;
+$debug-color-warning			: yellow;
+$debug-outline-width			: 5px;
+$debug-outline-style			: solid;
+
+
+
+
+
+// BASICS  ================================================
+
+$body-background 				: #eceeef;
+$vertical-spacing				: 1.35em;
+$gutter		 					: 22px;
+$max-width						: 140rem;
+$MQs							: true;
+
+
+
+
+// TYPOGRAPHY  ================================================
+
+// Base
+
+$font-size-plus-seven			: 64;
+$font-size-plus-six				: 56;
+$font-size-plus-five			: 42;
+$font-size-plus-four			: 38;
+$font-size-plus-three			: 32;						
+$font-size-plus-two				: 24;
+$font-size-plus-one				: 21;
+$font-size 						: 18;
+$font-size-minus-one			: 16;
+$font-size-minus-two			: 14;
+$font-size-minus-three			: 12;
+
+$font-family 					: "Aller Light Italic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-color 					: #4a4a4a;
+$font-lineheight 				: 1.6;
+
+// Alt
+
+$alt-font-family 				: "Aller Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$alt-font-color 				: #acaeaf;
+$alt-font-lineheight 			: $font-lineheight;
+
+// Bold
+
+$bold-font-family 				: "Aller Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Extra type variables
+
+$amp-font-family 				: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
+$codefont-font-family			: Monaco, Courier New, monospace;
+
+// Headings
+
+$heading-font-family 			: "Eastmarket", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font-weight 			: normal;
+$heading-font-color 			: inherit;
+$heading-lineheight				: $font-size * 1.15;
+
+
+
+
+
+// COLOUR  ================================================
+
+$black 							: #000;
+$white 							: #fff;
+
+$color-primary 					: #ba5c61;
+$color-secondary 				: #d9be55;
+$color-accent 					: #fed46e;
+$color-neutral 					: #747678;
+
+$link-color 		    		: $color-primary;
+$link-color-hover 				: $color-secondary;
+$link-color-visited   			: $link-color;
+$link-color-focus 				: $color-secondary;
+
+$base-bg						: #f4f4f4;
+
+
+
+
+
+// TEXTURE  ================================================
+
+$border-color    				: #88949f;
+$border-style					: solid;
+$border-width 					: 1px;
+$border-radius 					: 4px;
+$border							: $border-width $border-style $border-color;
+
+$shadow-color					: #0f2429;
+
+
+
+
+
+// 320 AND UP  ================================================
+
+
+
+// Boxes
+
+$box-padding					: 1rem 1.25rem;
+$box-bg 						: $white;
+
+$box-border-color				: $border-color;
+$box-border-style 				: $border-style;
+$box-border-width 				: $border-width;
+$box-border-radius 				: $border-radius;
+
+$box-font-family				: $alt-font-family;
+$box-font-size 					: $font-size;
+$box-font-color 				: $font-color;
+
+$box-large-padding				: 16px 22px;
+$box-large-border-radius 		: $border-radius * 2;
+
+$box-small-padding				: 2px 6px;
+$box-small-border-radius 		: $border-radius;
+
+
+
+// Buttons
+
+$button-bg 								: $base-bg;
+$button-border-color					: darken($button-bg,10);
+$button-border-style 					: $border-style;
+$button-border-width 					: 2px;
+$button-border-radius 					: 8px;
+
+$button-font-family						: $alt-font-family;
+$button-font-size 						: $font-size-plus-one;
+$button-font-color 						: $font-color;
+$button-font-weight 					: normal;
+$button-letter-spacing					: 0;
+$button-font-transform 					: none;
+
+$button-bg-hover 						: darken($button-bg,5);
+$button-border-color-hover				: darken($button-border-color,5);
+$button-font-color-hover 				: $button-font-color;
+
+$button-large-font-size					: $font-size-plus-three;
+$button-small-font-size					: $font-size;
+$button-mini-font-size					: $font-size-minus-one;
+
+
+
+// Primary buttons
+
+$button-primary-bg						: $color-primary;
+$button-primary-border-color			: darken($button-primary-bg,10);
+$button-primary-font-color 				: $white;
+
+$button-primary-bg-hover				: darken($button-primary-bg,5);
+$button-primary-border-color-hover		: darken($button-primary-border-color,5);
+$button-primary-font-color-hover 		: $button-primary-font-color;
+
+
+
+// Forms
+
+$form-font-family				: $alt-font-family;
+$form-font-color 				: $font-color;
+
+
+
+// Form-inputs
+
+$input-padding					: 6px 11px;
+$input-bg 						: transparent;
+
+$input-border-color				: $border-color;
+$input-border-color-hover		: $border-color;
+$input-border-color-focus		: $border-color;
+$input-border-style 			: $border-style;
+$input-border-width 			: 2px;
+$input-border-radius 			: $border-radius;
+
+$input-font-family				: $alt-font-family;
+$input-font-size 				: $font-size-minus-one;
+$input-font-color 				: $white;
+$input-placeholder-color 		: $font-color;
+$input-placeholder-font-size 	: $font-size;
+
+$textarea-min-height			: 160px;
+
+
+
+// Form-labels
+
+$label-font-color 				: inherit;
+$label-font-family				: $bold-font-family;
+$label-font-size 				: $font-size;
+
+
+
+// Images
+
+$figcaption-font-family			: $alt-font-family;
+$figcaption-font-size			: 1.4rem;
+$figcaption-font-style			: normal;
+$figcaption-font-weight			: normal;
+$figcaption-text-transform		: none;
+
+
+
+// Misc.
+
+$transition-duration			: .25s;
+$transition-timing-function		: ease;
+
+
+
+// Pagination
+
+$pagination-background			: $base-bg;
+$pagination-background-hover	: $body-background;
+$pagination-background-active	: $body-background;
+$pagination-border				: 2px $border-style $border-color;
+$pagination-color				: $font-color;
+$pagination-link-color			: $pagination-color;
+$pagination-padding				: .6rem 1.2rem;
+$pagination-font-size			: 1.4rem;
+$pagination-letter-spacing		: 2px;
+$pagination-text-transform		: uppercase;
+
+
+// Tables
+
+$table-padding 					: 8px;
+$table-font-family				: $alt-font-family;
+$table-font-size 				: $font-size-minus-one;
+$table-condensed-font-size 		: $font-size-minus-two;
+$table-font-color 				: $font-color;
+$table-header-font-weight 		: normal;
+$table-bg						: transparent;
+
+$table-stripe-bg 				: $base-bg;
+$table-stripe-font-color 		: $font-color;
+
+$table-hover-bg 				: $white;
+$table-hover-font-color 		: $font-color;
+
+$table-border-color				: $border-color;
+$table-border-style 			: $border-style;
+$table-border-width 			: 1px;
+
+
+
+
+
+
+
+
+

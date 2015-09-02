@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5 {
+margin-top : 0; }
+
+h1 { 
+margin-bottom : 1rem;
+@include font-size($font-size-plus-five);
+font-family : $heading-font-family;
+font-weight : $heading-font-weight; 
+text-shadow : 2px 2px 0 $shadow-color;
+
+-webkit-text-fill-color : inherit; 
+-webkit-text-stroke-width : 1px;
+-webkit-text-stroke-color : $shadow-color;
+
+@include bp(bp4) {
+@include font-size($font-size-plus-six); }
+}
+
+h2 { 
+margin-bottom : 1rem;
+@include font-size($font-size-plus-three);
+font-family : $heading-font-family;
+font-weight : $heading-font-weight; 
+line-height : 1.3;
+
+@include bp(bp4) {
+@include font-size($font-size-plus-four); }
+}
+
+h3 { 
+margin-bottom : .75rem;
+font-family : $alt-font-family;
+@include font-size($font-size-plus-two);
+font-family : $heading-font-family;
+font-weight : $heading-font-weight;
+line-height : 1.3;
+
+@include bp(bp4) {
+@include font-size($font-size-plus-three); }
+}
+
+h4 { 
+margin-bottom : .75rem;
+font-family : $alt-font-family;
+@include font-size($font-size-plus-one);
+font-family : $heading-font-family;
+font-weight : $heading-font-weight; 
+
+@include bp(bp4) {
+@include font-size($font-size-plus-two); }
+}
+
+h5 { 
+margin-bottom : ($vertical-spacing / 2);
+font-family : $alt-font-family;
+@include font-size($font-size-minus-one);
+font-family : $heading-font-family;
+font-weight : $heading-font-weight;
+text-transform : uppercase; 
+
+@include bp(bp4) {
+@include font-size($font-size); }
+}

@@ -1,0 +1,49 @@
+[role="banner"] {
+background-color : #303840;
+border-bottom : 5px solid #8c4549;
+font-family : $alt-font-family;
+
+.inner {
+display : flex;
+align-items : center;
+margin : 0; 
+padding : ($vertical-spacing / 2) 0;
+
+@include bp(bp2) {
+margin : 0 $gutter; }
+
+@include bp(bp3) {
+margin : 0 $gutter * 2; }
+
+@include bp(bp4) {
+margin : 0 $gutter * 3; }
+
+@include bp(bp6) {
+margin : 0 auto;
+width : 95%;
+max-width : $max-width; }
+}
+
+a {
+padding : 6px 12px;
+border-radius : 4px;
+text-transform : uppercase; 
+
+&:hover {
+background-color : $color-accent;
+color : $font-color; }
+}
+}
+
+
+.banner__logo {
+display : block;
+margin-right : $gutter;
+height : 50px;
+width : 50px;
+background-color : $color-primary; }
+
+.banner__nav {
+list-style-type : none;
+margin : 0;
+padding : 0; }

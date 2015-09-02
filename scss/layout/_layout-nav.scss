@@ -1,0 +1,55 @@
+[role="navigation"] {
+margin-bottom : $vertical-spacing;
+background-color : #fff;
+background-image : linear-gradient(#cacfd0, #fff);
+border-bottom : 1px solid #shadow-color;
+font-family : $alt-font-family;
+
+.inner {
+margin : 0; 
+padding : ($vertical-spacing / 2) 0;
+
+@include bp(bp2) {
+margin : 0 $gutter; }
+
+@include bp(bp3) {
+margin : 0 $gutter * 2; }
+
+@include bp(bp4) {
+margin : 0 $gutter * 3; }
+
+@include bp(bp6) {
+margin : 0 auto;
+width : 95%;
+max-width : $max-width; }
+}
+
+a {
+padding : 6px 12px;
+border-radius : 4px;
+text-transform : uppercase; 
+
+&:hover {
+background-color : $color-accent;
+color : $font-color; }
+}
+}
+
+
+
+.navigation__nav {
+list-style-type : none;
+margin : 0;
+padding : 0; 
+display : flex;
+
+li {
+margin-right : $gutter; 
+
+&:nth-of-type(3) {
+margin-left : auto; }
+
+&:last-of-type {
+margin-right : 0; }
+}
+}

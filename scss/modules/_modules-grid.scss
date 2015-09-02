@@ -1,0 +1,32 @@
+.cols {
+display : flex; }
+
+.col {
+flex : 1;
+margin-right : $gutter; 
+
+&:last-of-type {
+margin-right : 0; }
+}
+
+
+
+// flex__grid
+
+.flex__grid {
+list-style-type : none;
+display : flex;
+margin : 0 0 $vertical-spacing 0;
+padding : 0; }
+
+.flex__cell {
+flex : 1;
+margin-right : ($gutter * 1.5); 
+
+&:last-of-type {
+margin-right : 0; }
+
+img {
+border : 10px solid $border-color; }
+
+}

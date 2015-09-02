@@ -1,0 +1,23 @@
+.faq { }
+
+.faq__question {
+margin-bottom : .5rem;
+font-family : $alt-font-family;
+@include font-size($font-size-plus-one);
+font-weight : normal; 
+
+@include bp(bp4) {
+@include font-size($font-size-plus-two); }
+}
+
+.faq__answer {
+margin-bottom : $vertical-spacing;
+
+p, ol, ul {
+@include font-size($font-size-minus-one);
+
+@include bp(bp4) {
+@include font-size($font-size); }
+
+}
+}

@@ -1,0 +1,31 @@
+[role="contentinfo"] {
+margin : 0 $gutter / 2; 
+padding : $vertical-spacing 0;
+
+.inner {
+margin : 0; 
+padding : ($vertical-spacing / 2) 0;
+text-align : center;
+
+@include bp(bp2) {
+margin : 0 $gutter; }
+
+@include bp(bp3) {
+margin : 0 $gutter * 2; }
+
+@include bp(bp4) {
+margin : 0 $gutter * 3; }
+
+@include bp(bp6) {
+margin : 0 auto;
+width : 95%;
+max-width : $max-width; }
+}
+
+small {
+display : block;
+font-family : $alt-font-family;
+@include font-size($font-size-minus-three);
+text-transform : uppercase; }
+
+}

@@ -1,0 +1,14 @@
+blockquote {
+margin : 0 0 $vertical-spacing 0; 
+
+p:last-child,
+p:only-child {
+margin-bottom : 0; }
+
+small {
+font-family : $alt-font-family;
+@include font-size($font-size-minus-one); }
+
+cite {
+font-style : normal; }
+}

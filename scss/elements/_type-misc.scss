@@ -1,0 +1,102 @@
+::-moz-selection {
+background-color : $base-bg;
+text-shadow : none; }
+
+::selection {
+background-color : $base-bg;
+text-shadow : none; }
+
+
+
+// Misc
+
+address {
+margin-bottom : $vertical-spacing;
+@include font-size($font-size);
+line-height : $font-lineheight; }
+
+abbr[title] {
+border-bottom : 1px dotted $border-color;
+cursor : help; }
+
+.amp {
+font-family : $amp-font-family; }
+
+dfn {
+font-style : italic; }
+
+ins {
+background-color : $base-bg;
+color : $font-color;
+text-decoration : none; }
+
+mark {
+background-color : $base-bg;
+color : $font-color;
+font-style : italic;
+font-weight : bold; }
+
+small {
+@include font-size($font-size-minus-one); }
+
+time {
+@include font-size($font-size-minus-two);
+font-family : $alt-font-family;
+text-transform : uppercase; }
+
+
+// b, strong, i, em
+
+b, strong {
+font-family : $bold-font-family;
+font-weight : normal; }
+
+
+i, em {
+font-family : 'Bliss2LtIt';
+font-style : normal; }
+
+
+// code 
+
+code {
+vertical-align : middle;
+padding : .25em .5em;
+background-color : $base-bg; }
+
+pre {
+white-space : pre;
+white-space : pre-wrap;
+word-wrap : break-word; }
+
+
+
+// sub/sup 
+
+sub,
+sup {
+position : relative;
+@include font-size($font-size-minus-two);
+line-height : 0;
+vertical-align : baselineheight; }
+
+sup {
+top : -.5em; }
+
+sub {
+bottom : -.25em; }
+
+
+
+
+// columns
+
+.columns {
+margin-bottom : ($vertical-spacing * 2);
+column-count : 2;
+column-gap : ($gutter * 2); }
+
+.columns__span {
+margin : $vertical-spacing 0 ($vertical-spacing / 2);
+column-span : all;
+}

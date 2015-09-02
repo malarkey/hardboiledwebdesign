@@ -1,0 +1,58 @@
+@-webkit-viewport { 
+width : device-width; }
+
+@-moz-viewport { 
+width : device-width; }
+
+@-ms-viewport { 
+width : device-width; }
+
+@-o-viewport { 
+width : device-width; }
+
+@viewport { 
+width : device-width; }
+
+
+html {
+background : $body-background;
+font-size : 62.5%;
+-webkit-font-smoothing : antialiased;
+-moz-osx-font-smoothing : grayscale;
+-webkit-overflow-scrolling : touch;
+-webkit-tap-highlight-color : $base-bg;
+-webkit-text-size-adjust : 100% }
+
+body {
+margin : 0;
+padding : 0;
+min-height : 100vh;
+background-color : transparent;
+font-family : $alt-font-family;
+@include font-size($font-size);
+line-height : $font-lineheight;
+color : $font-color; 
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+font-family : $font-family; }
+
+@include bp(bp4) {
+@include font-size($font-size-plus-one); }
+
+}
+
+
+
+
+.index {
+background-color : #5f6f7f;
+color : #d7dbdf; 
+
+.container {
+
+a, a:visited {
+color : #fff; }
+} 
+}
