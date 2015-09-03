@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/site\/a-close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 412,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/a-close.png",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/a-close.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/site\/blends-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -31,6 +42,182 @@
 		"initialSize": 307785,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/book-cover-01.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/book-cover-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-opacity-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44549,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-opacity-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40759,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-opacity-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41542,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-opacity-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38460,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-04.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-opacity-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44549,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40759,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41542,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38460,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-04.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42276,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-05.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39597,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-06.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64100,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-07.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44890,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-08.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39132,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-09.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44493,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-10.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44458,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-11.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-target-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39822,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-target-12.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-target-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -130,50 +317,6 @@
 		"initialSize": 20776,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/hgroup.png",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/hgroup.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/site\/opacity-01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 44549,
-		"inputAbbreviatedPath": "\/assets\/img\/site\/opacity-01.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/site\/opacity-01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/site\/opacity-02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40759,
-		"inputAbbreviatedPath": "\/assets\/img\/site\/opacity-02.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/site\/opacity-02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/site\/opacity-03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41542,
-		"inputAbbreviatedPath": "\/assets\/img\/site\/opacity-03.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/site\/opacity-03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/site\/opacity-04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38460,
-		"inputAbbreviatedPath": "\/assets\/img\/site\/opacity-04.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/site\/opacity-04.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -346,12 +489,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/partials\/_example-landscape.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_example-landscape.kit",
+		"outputAbbreviatedPath": "\/partials\/_example-landscape.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/partials\/_example-opacity.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_example-opacity.kit",
 		"outputAbbreviatedPath": "\/partials\/_example-opacity.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_example-target.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_example-target.kit",
+		"outputAbbreviatedPath": "\/partials\/_example-target.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -921,6 +1082,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/modules\/_modules-example-landscape.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/modules\/_modules-example-landscape.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_modules-example-landscape.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/modules\/_modules-example-opacity.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -930,6 +1107,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/modules\/_modules-example-opacity.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_modules-example-opacity.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/modules\/_modules-example-target.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/modules\/_modules-example-target.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_modules-example-target.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

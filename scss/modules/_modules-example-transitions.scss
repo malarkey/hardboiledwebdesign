@@ -13,7 +13,6 @@ top : 330px;
 width : 110px;
 height : 160px;  
 border : $img-border-width solid $border-color;
-border-radius : $border-radius;
 box-sizing : border-box;
 cursor : pointer; }
 
@@ -157,7 +156,6 @@ background-position : $gutter $gutter;
 background-repeat : no-repeat;
 background-size : auto 220px;
 border : 6px solid $border-color;
-border-radius : $border-radius;
 box-shadow : 3px 3px 0 $shadow-color;
 box-sizing : border-box; }
 }
