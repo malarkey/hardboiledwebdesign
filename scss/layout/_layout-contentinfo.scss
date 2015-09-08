@@ -25,7 +25,6 @@ max-width : $max-width; }
 small {
 display : block;
 font-family : $alt-font-family;
-@include font-size($font-size-minus-three);
-text-transform : uppercase; }
+@include font-size($font-size-minus-two); }
 
 }

@@ -26,8 +26,11 @@ max-width : $max-width; }
 
 a {
 padding : 6px 12px;
-border-radius : 4px;
-text-transform : uppercase; 
+font-family : $bold-font-family;
+@include font-size($font-size-minus-two);
+color : #fff;
+letter-spacing : .1rem;
+text-transform : uppercase;
 
 &:hover {
 background-color : $color-accent;
@@ -38,10 +41,9 @@ color : $font-color; }
 
 .banner__logo {
 display : block;
-margin-right : $gutter;
-height : 50px;
-width : 50px;
-background-color : $color-primary; }
+margin-right : ($gutter / 2);
+height : 55px;
+width : 45px; }
 
 .banner__nav {
 list-style-type : none;

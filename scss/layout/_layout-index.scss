@@ -1,0 +1,16 @@
+.index {
+background-color : #5f6f7f;
+color : #d7dbdf; 
+
+
+h1 { 
+text-shadow : 2px 2px 0 $shadow-color;
+-webkit-text-fill-color : inherit; 
+-webkit-text-stroke-width : 1px;
+-webkit-text-stroke-color : rgba($shadow-color,.75); }
+
+
+
+
+
+}

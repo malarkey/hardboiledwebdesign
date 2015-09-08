@@ -78,7 +78,8 @@ padding-left : 0;
 
 li {
 margin-bottom : $vertical-spacing;
-font-family : $alt-font-family; }
+font-family : $alt-font-family;
+@include font-size($font-size-minus-one); }
 
 li + li:before {
 content : "";
@@ -86,12 +87,12 @@ display : block;
 margin-bottom : $vertical-spacing / 2;
 width : 60px;
 height : 2px;
-background-color : $color-accent; }
+background-color : $color-neutral; }
 }
 
 .list__header {
 font-family : $bold-font-family;
-@include font-size($font-size-plus-one);
+@include font-size($font-size);
 line-height : 1.4;
 color : #fff; }
 

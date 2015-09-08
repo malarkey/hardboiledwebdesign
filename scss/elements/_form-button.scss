@@ -14,9 +14,9 @@ border : none; }
 -webkit-font-smoothing : antialiased;
 -moz-osx-font-smoothing : grayscale;
 display : inline-block;
-padding : 6px 18px;
+padding : 10px 18px 6px;
 background-color : $button-bg;
-border : $button-border-width $button-border-style $button-border-color;
+border-bottom : $button-border-width $button-border-style $button-border-color;
 border-radius : $button-border-radius;
 font-family : $button-font-family;
 @include font-size($button-font-size);
@@ -43,9 +43,7 @@ color : $button-font-color-hover;
 text-decoration : none; }
 }
 
-a.btn {
-padding-top : 5px;
-padding-bottom : 5px; }
+
 
 // primary
 

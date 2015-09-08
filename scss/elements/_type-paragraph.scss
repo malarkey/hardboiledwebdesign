@@ -1,17 +1,18 @@
 p { 
-margin-bottom : 1.5rem; 
-line-height : 1.4; 
+margin-bottom : $vertical-spacing; 
 @include font-size($font-size);
+line-height : 1.4; 
 
 @include bp(bp4) {
-line-height : 1.5; }
+@include font-size($font-size-plus-one);
+line-height : 1.6; }
 
 @include bp(bp5) { 
-line-height : 1.6; }
+line-height : 1.7; }
 }
 
 .lead {
-font-family : $alt-font-family;
+margin-bottom : ($vertical-spacing * 1.5);
 @include font-size($font-size-plus-one);
 
 @include bp(bp4) {
