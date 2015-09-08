@@ -1,0 +1,41 @@
+.hb-transform-origin {
+
+.transforms__card {
+width : 320px;
+height : 215px; 
+margin-bottom : 40px;
+padding : ($gutter / 2);
+background-size : 100% 100%; 
+border : $img-border-width solid $border-color; 
+border-radius : 40px;
+box-shadow : 0 2px 1px rgba(0,0,0,.5); 
+transform : rotate(30deg); 
+
+-webkit-box-reflect : below 1px
+-webkit-linear-gradient(transparent, transparent 50%, rgba(255,255,255,.25) 100%); }
+
+.card-01 {
+background-image : url(../assets/img/site/example-c02.jpg);
+transform-origin : 0 0; }
+
+.card-02 {
+background-image : url(../assets/img/site/example-c03.jpg);
+transform-origin : 50% 0; }
+
+.card-03 {
+background-image : url(../assets/img/site/example-c04.jpg);
+transform-origin : 100% 0; }
+
+.card-04 {
+background-image : url(../assets/img/site/example-c05.jpg);
+transform-origin : 50% 50%; }
+
+.card-05 {
+background-image : url(../assets/img/site/example-c06.jpg);
+transform-origin : 100% 50%; }
+
+.card-06 {
+background-image : url(../assets/img/site/example-c07.jpg);
+transform-origin : 100% 100%; }
+
+}

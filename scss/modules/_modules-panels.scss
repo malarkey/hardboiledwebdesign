@@ -1,0 +1,21 @@
+.panels {
+
+.item {
+min-height : 340px;
+width : 100%;
+margin-bottom : 1.5em;
+padding : 40px 40px 40px 260px;
+box-sizing : border-box;
+background-color : $panel-bg;
+background-image : url(../assets/img/site/example-panel-01.jpg), url(../assets/img/site/example-panel-02.jpg);
+background-position : 20px 20px, 50% 100%;
+background-repeat : no-repeat, no-repeat;
+border : $img-border-width solid $border-color; } 
+
+.item--contain {
+background-size : 200px 300px, contain; }
+
+.item--cover {
+background-size : 200px 300px, cover; } 
+
+}

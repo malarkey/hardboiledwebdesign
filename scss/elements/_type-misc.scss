@@ -92,11 +92,16 @@ bottom : -.25em; }
 // columns
 
 .columns {
+
+@include bp(bp4) {
 margin-bottom : ($vertical-spacing * 2);
 column-count : 2;
 column-gap : ($gutter * 2); }
+}
 
 .columns__span {
+
+@include bp(bp4) {
 margin : $vertical-spacing 0 ($vertical-spacing / 2);
-column-span : all;
+column-span : all; }
 }

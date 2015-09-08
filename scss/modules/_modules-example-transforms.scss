@@ -1,0 +1,60 @@
+.hb-transforms {
+
+.transforms__card {
+width : 320px;
+height : 215px; 
+margin-bottom : 40px;
+padding : ($gutter / 2);
+background-size : 100% 100%; 
+border : $img-border-width solid $border-color; 
+border-radius : 40px;
+box-shadow : 0 2px 1px rgba(0,0,0,.5); 
+
+-webkit-box-reflect : below 1px
+-webkit-linear-gradient(transparent, transparent 50%, rgba(255,255,255,.25) 100%); }
+
+.card-01 {
+background-image : url(../assets/img/site/example-c02.jpg);
+transform : rotate(30deg); }
+
+.card-02 {
+background-image : url(../assets/img/site/example-c03.jpg);
+transform : translateX(20px); }
+
+.card-03 {
+background-image : url(../assets/img/site/example-c04.jpg);
+transform : translateY(20px); }
+
+.card-04 {
+background-image : url(../assets/img/site/example-c06.jpg);
+transform : translate(20px,20px); }
+
+.card-05 {
+background-image : url(../assets/img/site/example-c07.jpg);
+transform : scale(.5); }
+
+.card-06 {
+background-image : url(../assets/img/site/example-c08.jpg);
+transform : scaleX(.5); }
+
+.card-07 {
+background-image : url(../assets/img/site/example-c09.jpg);
+transform : scaleY(.5); }
+
+.card-08 {
+background-image : url(../assets/img/site/example-c02.jpg);
+transform : skewX(30deg); }
+
+.card-09 {
+background-image : url(../assets/img/site/example-c03.jpg);
+transform : skewY(30deg); }
+
+.card-10 {
+background-image : url(../assets/img/site/example-c04.jpg);
+transform : skew(-15deg, -30deg); }
+
+.card-11 {
+background-image : url(../assets/img/site/example-c05.jpg);
+transform : matrix(1, -0.2, 0, 1, 0, 0); }
+
+}

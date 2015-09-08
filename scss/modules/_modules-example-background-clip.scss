@@ -1,0 +1,28 @@
+.hb-background-clip {
+width : 360px;
+
+.background-clip__card {
+width : 320px;
+height : 215px; 
+margin-bottom : $vertical-spacing;
+padding : $gutter; 
+background-clip : padding-box; 
+background-color : transparent;
+background-repeat : no-repeat;
+background-position : 50% 50%;
+background-size : 100% 100%;
+border : $img-border-width dashed $border-color;  }
+
+.card-01 {
+background-image : url(../assets/img/site/example-c01.jpg);
+background-clip : border-box; }
+
+.card-02 {
+background-image : url(../assets/img/site/example-c02.jpg);
+background-clip : padding-box; }
+
+.card-03 {
+background-image : url(../assets/img/site/example-c03.jpg);
+background-clip : content-box; }
+
+}

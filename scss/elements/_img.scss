@@ -8,35 +8,8 @@ img[width],
 img[height] {
 max-width : none; }
 
-.img--right {
-float : right;
-margin-bottom : $vertical-spacing;
-margin-left : $gutter;
-width : auto; }
 
-.img--left {
-float : left;
-width : auto;
-margin-right : $gutter;
-margin-bottom : $vertical-spacing; }
 
-.img--center {
-display : block;
-width : auto;
-
-margin-right : auto;
-margin-bottom : $vertical-spacing;
-margin-left : auto; }
-
-.img--right,
-.img--left,
-.img--center {
-img {
-width : auto; }
-}
-
-.img--circle {
-border-radius : 50%; }
 
 figure {
 display : block;
@@ -66,7 +39,11 @@ margin : 0 ($gutter * 2); }
 .figure--classic {
 
 figcaption { 
+
+@include bp(bp4) {
 width : 50%; }
+}
+
 }
 
 
@@ -75,14 +52,23 @@ width : 50%; }
 // figure--horizontal
 
 .figure--horizontal {
-display : flex;
+
+@include bp(bp4) {
+display : flex; }
 
 .figure__img {
+
+@include bp(bp4) {
 flex : 2;
 margin-right : $gutter; }
+}
 
 figcaption {
+
+@include bp(bp4) {
 flex : 1; }
+}
+
 }
 
 
@@ -91,15 +77,24 @@ flex : 1; }
 // figure--horizontal
 
 .figure--horizontal-reverse {
+
+@include bp(bp4) {
 display : flex;
-flex-direction : row-reverse;
+flex-direction : row-reverse; }
 
 .figure__img {
+
+@include bp(bp4) {
 flex : 2;
 margin-left : $gutter; }
+}
 
 figcaption {
+
+@include bp(bp4) {
 flex : 1; }
+}
+
 }
 
 
@@ -113,7 +108,11 @@ flex-direction : column-reverse;
 
 figcaption { 
 margin-bottom : ($vertical-spacing / 2);
+
+@include bp(bp4) {
 width : 50%; }
+}
+
 }
 
 

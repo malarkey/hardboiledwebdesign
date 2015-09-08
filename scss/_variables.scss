@@ -14,7 +14,7 @@ $debug-outline-style			: solid;
 
 $body-background 				: #eceeef;
 $vertical-spacing				: 1.35em;
-$gutter		 					: 22px;
+$gutter		 					: 20px;
 $max-width						: 140rem;
 $MQs							: true;
 
@@ -93,10 +93,10 @@ $panel-bg						: #0f2429;
 $border-color    				: #88949f;
 $border-style					: solid;
 $border-width 					: 1px;
-$border-radius 					: 4px;
+$border-radius 					: 6px;
 $border							: $border-width $border-style $border-color;
 
-$img-border-width 				: 6px;
+$img-border-width 				: 5px;
 $shadow-color					: #0f2429;
 
 
@@ -131,20 +131,20 @@ $box-small-border-radius 		: $border-radius;
 
 // Buttons
 
-$button-bg 								: $base-bg;
+$button-bg 								: $color-primary;
 $button-border-color					: darken($button-bg,10);
 $button-border-style 					: $border-style;
-$button-border-width 					: 2px;
+$button-border-width 					: 4px;
 $button-border-radius 					: 8px;
 
 $button-font-family						: $alt-font-family;
-$button-font-size 						: $font-size-plus-one;
+$button-font-size 						: $font-size-minus-one;
 $button-font-color 						: $font-color;
 $button-font-weight 					: normal;
 $button-letter-spacing					: 0;
 $button-font-transform 					: none;
 
-$button-bg-hover 						: darken($button-bg,5);
+$button-bg-hover 						: darken($button-bg,10);
 $button-border-color-hover				: darken($button-border-color,5);
 $button-font-color-hover 				: $button-font-color;
 

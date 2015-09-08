@@ -1,0 +1,55 @@
+.hb-background-size {
+width : 360px;
+
+.background-size__card {
+width : 320px;
+height : 215px; 
+margin-bottom : $vertical-spacing;
+padding : $gutter; 
+background-clip : padding-box; 
+background-color : transparent;
+border : $img-border-width solid $border-color;  }
+
+.card-01 {
+background-image : url(../assets/img/site/example-c01.jpg);
+background-position : 0 0;
+background-repeat : no-repeat;
+background-size : 100% 100%; }
+
+.card-02 {
+background-image : url(../assets/img/site/example-c02.jpg);
+background-position : 0 0;
+background-repeat : no-repeat;
+background-size : 50% auto; }
+
+.card-03 {
+background-image : url(../assets/img/site/example-c03.jpg);
+background-position : 0 0;
+background-repeat : no-repeat;
+background-size : auto 25%; }
+
+.card-04 {
+background-image : url(../assets/img/site/example-c04.jpg);
+background-position : 0 0;
+background-repeat : no-repeat;
+background-size : 100% 50%; }
+
+.card-05 {
+background-image : url(../assets/img/site/example-c05.jpg);
+background-position : 0 0;
+background-repeat : repeat;
+background-size : auto 25%; }
+
+.card-06 {
+background-image : url(../assets/img/site/example-c06.jpg);
+background-position : 0 0;
+background-repeat : round;
+background-size : auto 25%; }
+
+.card-07 {
+background-image : url(../assets/img/site/example-c07.jpg);
+background-position : 0 0;
+background-repeat : space;
+background-size : auto 25%; }
+
+}

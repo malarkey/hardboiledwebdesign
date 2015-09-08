@@ -1,14 +1,19 @@
 .cols {
+
+@include bp(bp4) {
 display : flex; }
+}
 
 .col {
+
+@include bp(bp4) {
 flex : 1;
 margin-right : $gutter; 
 
 &:last-of-type {
 margin-right : 0; }
 }
-
+}
 
 
 // flex__grid

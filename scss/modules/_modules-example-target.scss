@@ -1,80 +1,147 @@
 .hb-target {
+
+@include bp(bp4) {
 position : relative;
-width : 520px; 
-margin : 0 auto; 
+width : 600px; 
 padding-bottom : ($vertical-spacing * 2); 
+@include clearfix(); }
+
+
 
 .item {
+display : flex;
+margin-bottom : $vertical-spacing;
+padding : ($gutter / 2);
+border : $img-border-width solid $border-color; 
+border-radius : $border-radius;
+
+@include bp(bp4) {
+display : block;
 float : left; 
-width : 120px; 
-margin : 0 10px 10px 0; }
+width : 130px; 
+padding : 0;
+margin : 0 20px 20px 0;
+border-width : 0; }
 
-.item img {
-width : 100px;
-border : $img-border-width solid $border-color; }
+.item:last-child {
 
-a[href="#items"] img {
+@include bp(bp4) {
+margin-right : 0; }
+}
+}
+
+
+
+.item__img {
+margin-right : $gutter;
+width : 133px;
+
+@include bp(bp4) {
+margin-right : 0; }
+
+img {
+border : $img-border-width solid $border-color;
+box-sizing : border-box; }
+
+}
+
+
+
+a[href="#hb-target"] .item__img {
 width : auto;
 border-width : 0; }
 
-.item .description {
+
+
+.item .item__description {
+flex : 1;
+
+@include bp(bp4) {
 opacity : 0;
 position : absolute;
 top : 0;
 left : 0; }
+}
 
-.item:target .description {
+
+.item:target .item__description {
+
+@include bp(bp4) {
 opacity : 1;
-width : 230px;
-height : 300px;
-padding : $gutter $gutter $gutter 240px; 
+width : 585px;
+height : 410px;
+padding : ($gutter * 2) ($gutter * 2) ($gutter * 2) 280px; 
 background-color : $panel-bg;
 background-repeat : no-repeat; 
-background-position : $gutter $gutter; 
-border : $img-border-width solid $border-color; }
+background-position : ($gutter * 2) ($gutter * 2); 
+border : $img-border-width solid $border-color;
+box-sizing : border-box; }
+}
 
-#f01:target .description {
+#hb-target-01:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-01.jpg); } 
+}
 
-#f02:target .description {
+#hb-target-02:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-02.jpg); }
+}
 
-#f03:target .description {
+#hb-target-03:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-03.jpg); }
+}
 
-#f04:target .description {
+#hb-target-04:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-04.jpg); }
+}
 
-#f05:target .description {
+#hb-target-05:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-05.jpg); }
+}
 
-#f06:target .description {
+#hb-target-06:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-06.jpg); }
+}
 
-#f07:target .description {
+#hb-target-07:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-07.jpg); }
+}
 
-#f08:target .description {
+#hb-target-08:target .item__description {
+
+@include bp(bp4) {
 background-image : url(../assets/img/site/example-target-08.jpg); }
+}
 
-.item .description ul {
-list-style-type : none; }
+.item .item__description a[href="#hb-target"] {
+display : none;
 
-.item .description a[href="#items"] {
+@include bp(bp4) {
 position : absolute;
-top : -20px;
-right : -20px;
+top : -($gutter);
+right : -($gutter);
 display : block;
 width : 26px;
 height : 26px; }
+}
 
-.item .description a.action,
-.item .description a.action:focus,
-.item .description a.action:active {
-position : absolute;
-top : auto;
-bottom : 20px;
-right : 20px;
-display : block; }
+.item__header {
+@include font-size($font-size-plus-one); }
+
+.list--plain li {
+@include font-size($font-size-minus-one); }
 
 }

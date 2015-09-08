@@ -1,0 +1,68 @@
+@font-face {
+font-family : 'Boycott';
+src: url('../assets/fonts/boycott.eot');
+src: local('Boycott'), local('Boycott'), 
+url('../assets/fonts/boycott.ttf') format('truetype'), 
+url('../assets/fonts/boycott.woff') format('woff'); }
+
+@font-face {
+font-family : 'ChunkFive';
+src: url('../assets/type/ChunkFive.eot');
+src: local('ChunkFive'), local('ChunkFive'), 
+url('../assets/fonts/ChunkFive.ttf') format('truetype'), 
+url('../assets/fonts/Chunkfive.woff') format('woff'); }
+
+.you-dumb-mug { 
+position : relative;
+padding : 0 0 60px 0;
+background-image : url(../assets/img/site/body.png), url(../assets/img/site/404-body.jpg); 
+background-repeat : no-repeat, repeat;
+background-position : 40px 0, 0 0;
+background-size : auto, cover; }
+
+.splatter {
+min-height : 900px;
+background : url(../assets/img/site/404-blood.png) no-repeat 50% 0; 
+
+h1 {
+margin : 0;
+font-family : ChunkFive; 
+font-size : 16rem; 
+font-weight : bold;
+text-align : center;
+line-height : 1;
+text-shadow : none;
+color : rgb(224,224,224); 
+-webkit-text-fill-color : transparent; 
+-webkit-text-stroke : 3px rgb(133,29,25); }
+
+p {
+color : rgb(224,224,224);
+font-family : Boycott; 
+font-size : 1.6rem;
+text-align : center; 
+text-shadow : -1px -1px 2px rgb(0,0,0);  }
+
+h1 + p {
+margin : -30px 0 .5em 0;
+padding-bottom : .25em;
+border-bottom : 1px solid rgb(224,224,224);
+font-family : ChunkFive; 
+font-size : 3rem;
+text-transform : uppercase; 
+text-shadow : -1px -1px 2px rgb(0,0,0); }
+
+}
+
+
+
+.splatter__content {
+width : 280px; 
+max-width : 280px;
+min-width : 280px;
+margin : 0 auto; 
+padding-top : 270px; 
+text-shadow : 0 1px 2px rgb(0,0,0); }
+
+
+

@@ -1,0 +1,383 @@
+.hb-shelf {
+padding-top : $gutter;
+padding-bottom : $vertical-spacing;
+min-width : 100vw;
+
+@include bp(bp4) {
+position : relative; 
+height : 100vh; 
+margin-bottom : 0;
+padding-top : 0;
+padding-bottom : 0;
+display : flex;
+flex-direction : column; }
+
+
+
+.item {
+margin : 0 $gutter $gutter;
+padding : $gutter $gutter $gutter 100px;
+background-color : #b1585d;
+background-position : $gutter $gutter;
+background-repeat : no-repeat;
+background-size : 60px 100px;
+border : $img-border-width solid $border-color;
+border-radius : $border-radius;
+
+@include bp(bp4) {
+flex : 1;
+margin : 0;
+padding : 0;
+border-image : url(../assets/img/site/example-shelf-worn.png) 10 10 10 10 round round;  
+border-width : 5px;
+box-sizing : border-box; }
+}
+
+.item:nth-of-type(odd) {
+background-color : #806b38; }
+
+.item:nth-of-type(4n+3) {
+background-color : #b58a66; }
+
+.item:nth-of-type(5n+4) {
+background-color : #5e2f31; }
+
+.item:nth-of-type(5n+5) {
+background-color : #48545f; }
+
+
+
+
+
+#hb-shelf-01 {
+background-image : url(../assets/img/site/example-shelf-01.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-02 {
+background-image : url(../assets/img/site/example-shelf-02.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-03 {
+background-image : url(../assets/img/site/example-shelf-03.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-04 {
+background-image : url(../assets/img/site/example-shelf-04.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-05 {
+background-image : url(../assets/img/site/example-shelf-05.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-06 {
+background-image : url(../assets/img/site/example-shelf-06.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-07 {
+background-image : url(../assets/img/site/example-shelf-07.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-08 {
+background-image : url(../assets/img/site/example-shelf-08.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-09 {
+background-image : url(../assets/img/site/example-shelf-09.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-10 {
+background-image : url(../assets/img/site/example-shelf-10.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-11 {
+background-image : url(../assets/img/site/example-shelf-11.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-12 {
+background-image : url(../assets/img/site/example-shelf-12.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-13 {
+background-image : url(../assets/img/site/example-shelf-13.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-14 {
+background-image : url(../assets/img/site/example-shelf-14.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-15 {
+background-image : url(../assets/img/site/example-shelf-15.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-16 {
+background-image : url(../assets/img/site/example-shelf-16.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-17 {
+background-image : url(../assets/img/site/example-shelf-17.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-18 {
+background-image : url(../assets/img/site/example-shelf-18.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-19 {
+background-image : url(../assets/img/site/example-shelf-19.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+#hb-shelf-20 {
+background-image : url(../assets/img/site/example-shelf-20.jpg); 
+
+@include bp(bp4) {
+background-image : none; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.item__header {
+font-family : $bold-font-family;
+@include font-size($font-size);
+
+@include bp(bp4) {
+margin : 14px 0 0 60px;
+@include font-size($font-size-minus-one);
+letter-spacing : 1px;
+text-shadow : 0 1px 1px rgba(0,0,0,.8);
+text-transform : uppercase;
+color : rgb(255,255,255); }
+
+@include bp(bp5) {
+margin-left : 120px;
+}
+
+
+}
+
+
+.item_description {
+
+@include bp(bp4) {
+z-index : 2;
+position : absolute;
+top : -1000px; 
+opacity : 0; }
+
+p {
+margin : 0; 
+@include font-size($font-size-minus-one); }
+
+
+}
+
+
+
+.item:hover .item_description {
+
+@include bp(bp4) {
+opacity : 1;
+top : 120px;
+left :  50%;
+width : 200px;
+margin : 0 0 0 -130px;
+padding : 330px 20px 20px 20px; 
+background-color : $panel-bg;
+background-repeat : no-repeat; 
+background-position : 20px 20px; 
+border : $img-border-width solid $border-color; 
+border-radius : $border-radius;
+box-shadow : 0 2px 6px rgba(0,0,0,.6), 0 20px 40px rgba(0,0,0,.3); }
+}
+
+
+.hb-shelf:target .item_description {
+opacity : 0; }
+
+
+
+#hb-shelf-01:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-01.jpg); }
+}
+
+#hb-shelf-02:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-02.jpg); }
+}
+
+#hb-shelf-03:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-03.jpg); }
+}
+
+#hb-shelf-04:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-04.jpg); }
+}
+
+#hb-shelf-05:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-05.jpg); }
+}
+
+#hb-shelf-06:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-06.jpg); }
+}
+
+#hb-shelf-07:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-07.jpg); }
+}
+
+#hb-shelf-08:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-08.jpg); }
+}
+
+#hb-shelf-09:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-09.jpg); }
+}
+
+#hb-shelf-10:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-10.jpg); }
+}
+
+#hb-shelf-11:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-11.jpg); }
+}
+
+#hb-shelf-12:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-12.jpg); }
+}
+
+#hb-shelf-13:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-13.jpg); }
+}
+
+#hb-shelf-14:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-14.jpg); }
+}
+
+#hb-shelf-15:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-15.jpg); }
+}
+
+#hb-shelf-16:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-16.jpg); }
+}
+
+#hb-shelf-17:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-17.jpg); }
+}
+
+#hb-shelf-18:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-18.jpg); }
+}
+
+#hb-shelf-19:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-19.jpg); }
+}
+
+#hb-shelf-20:hover .item_description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-shelf-20.jpg); }
+}
+
+}

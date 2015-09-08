@@ -1,0 +1,41 @@
+.hb-border-radius {
+width : 360px;
+
+.border-radius__card {
+width : 100%;
+height : 215px; 
+margin-bottom : $vertical-spacing;
+padding : ($gutter / 2);
+background-size : 100% 100%;
+border : $img-border-width dashed $border-color; 
+}
+
+.card-01 {
+background-image : url(../assets/img/site/example-c02.jpg);
+border-top-left-radius : 40px;
+border-top-right-radius : 40px;
+border-bottom-left-radius : 40px;
+border-bottom-right-radius : 40px; }
+
+.card-02 {
+background-image : url(../assets/img/site/example-c03.jpg); 
+border-top-left-radius : 20px;
+border-top-right-radius : 40px;
+border-bottom-left-radius : 60px;
+border-bottom-right-radius : 5px; }
+
+.card-03 {
+background-image : url(../assets/img/site/example-c04.jpg);
+border-radius : 30px 200px; }
+
+.card-04 {
+background-image : url(../assets/img/site/example-c05.jpg);
+border-radius : 200px 50px;
+border-top-right-radius : 30px 60px;
+border-bottom-left-radius : 0; }
+
+.card-05 {
+background-image : url(../assets/img/site/example-c06.jpg); 
+border-radius : 200px 200px; }
+
+}

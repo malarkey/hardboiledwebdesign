@@ -9,7 +9,7 @@ margin : 0 0 $vertical-spacing -22px; }
 }
 
 li {
-margin-bottom : .5rem;
+margin-bottom : ($vertical-spacing / 16);
 @include font-size($font-size); }
 
 li > ul,
@@ -38,9 +38,11 @@ list-style-type : none;
 margin-left : 0; 
 padding-left : 0; 
 font-family : $alt-font-family;
+
+@include bp(bp4) {
 column-count : 3;
 column-gap : ($gutter * 2); }
-
+}
 
 
 // list--inline

@@ -1,64 +1,107 @@
 .hb-transitions {
+
+@include bp(bp4) {
 position : relative;
 width : 710px; 
 height : 500px; 
 margin : 0 auto $vertical-spacing;
 background : transparent url(../assets/img/site/hgroup.png) no-repeat 50% 100px;
-font-size : .87em; 
+font-size : .87em; }
 
-img {
-z-index : 2;
-position : absolute;
-top : 330px; 
-width : 110px;
-height : 160px;  
-border : $img-border-width solid $border-color;
-box-sizing : border-box;
-cursor : pointer; }
 
-.item__header {
-@include font-size($font-size-plus-two);
+.item {
+display : flex;
+flex-direction : row-reverse;
+margin-bottom : $vertical-spacing;
+padding : ($gutter / 2);
+border : $img-border-width solid $border-color; 
+border-radius : $border-radius;
 
 @include bp(bp4) {
-@include font-size($font-size-plus-three); }
+display : block;
+margin-bottom : 0; 
+padding : 0;
+border-width : 0; }
+
 }
 
 
 
+.item__img {
+margin-left : $gutter;
+width : 133px;
 
-// img
+@include bp(bp4) {
+z-index : 2;
+position : absolute;
+top : 330px; 
+margin-left : 0;
+width : 110px;
+height : 160px;  
+cursor : pointer; }
 
-#s01 img {
+img {
+border : $img-border-width solid $border-color;
+box-sizing : border-box; }
+
+}
+
+
+
+#hb-transitions-01 .item__img {
+
+@include bp(bp4) {
 left : 0; }
+}
 
-#s02 img {
+#hb-transitions-02 .item__img {
+
+@include bp(bp4) {
 left : 120px; }
+}
 
-#s03 img {
+#hb-transitions-03 .item__img {
+
+@include bp(bp4) {
 left : 240px; }
+}
 
-#s04 img {
+#hb-transitions-04 .item__img {
+
+@include bp(bp4) {
 left : 360px; }
+}
 
-#s05 img {
+#hb-transitions-05 .item__img {
+
+@include bp(bp4) {
 left : 480px; }
+}
 
-#s06 img {
+#hb-transitions-06 .item__img {
+
+@include bp(bp4) {
 left : 600px; }
+}
 
-#s07 img {
+#hb-transitions-07 .item__img {
+
+@include bp(bp4) {
 left : 720px; }
+}
 
-#s08 img {
+#hb-transitions-08 .item__img {
+
+@include bp(bp4) {
 left : 840px; }
+}
 
 
-
-
-
-// item__description
 
 .item__description {
+flex : 1;
+
+@include bp(bp4) {
 z-index : 1;
 position : absolute; 
 top : 335px;
@@ -66,84 +109,119 @@ left : 5px;
 width : 100px;
 height : 150px; 
 overflow : hidden; 
-opacity : 0; }
-
-#s01 .item__description {
-left : 0; }
-
-#s02 .item__description {
-left : 120px;  }
-
-#s03 .item__description {
-left : 240px;  }
-
-#s04 .item__description {
-left : 360px;  }
-
-#s05 .item__description {
-left : 480px;  }
-
-#s06 .item__description {
-left : 600px;  }
-
-#s07 .item__description {
-left : 720px;  }
-
-#s08 .item__description {
-left : 840px;  }
-
-#s01:target .item__description {
-background-image : url(../assets/img/site/example-transitions-01.jpg); }
-
-#s02:target .item__description {
-left : 120px; 
-background-image : url(../assets/img/site/example-transitions-02.jpg); }
-
-#s03:target .item__description {
-background-image : url(../assets/img/site/example-transitions-03.jpg); }
-
-#s04:target .item__description {
-background-image : url(../assets/img/site/example-transitions-04.jpg); }
-
-#s05:target .item__description {
-background-image : url(../assets/img/site/example-transitions-05.jpg); }
-
-#s06:target .item__description {
-background-image : url(../assets/img/site/example-transitions-06.jpg); }
-
-#s07:target .item__description {
-background-image : url(../assets/img/site/example-transitions-07.jpg); }
-
-#s08:target .item__description {
-background-image : url(../assets/img/site/example-transitions-08.jpg); }
-
-
-
-
-
-// item
-
-.item {
-
-.item__description {
+opacity : 0;
 transition-property : width, height, opacity, top;
 transition-duration : .5s, .5s, .75s, .5s; }
+}
 
-img {
-transition-duration : $transition-duration;
-transition-timing-function : $transition-timing-function; }
+#hb-transitions-01 .item__description {
 
+@include bp(bp4) {
+left : 0; }
+}
+
+#hb-transitions-02 .item__description {
+
+@include bp(bp4) {
+left : 120px;  }
+}
+
+#hb-transitions-03 .item__description {
+
+@include bp(bp4) {
+left : 240px;  }
+}
+
+#hb-transitions-04 .item__description {
+
+@include bp(bp4) {
+left : 360px;  }
+}
+
+#hb-transitions-05 .item__description {
+
+@include bp(bp4) {
+left : 480px;  }
+}
+
+#hb-transitions-06 .item__description {
+
+@include bp(bp4) {
+left : 600px;  }
+}
+
+#hb-transitions-07 .item__description {
+
+@include bp(bp4) {
+left : 720px;  }
+}
+
+#hb-transitions-08 .item__description {
+
+@include bp(bp4) {
+left : 840px;  }
+}
+
+
+
+#hb-transitions-01:target .item__description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-01.jpg); }
+}
+
+#hb-transitions-02:target .item__description {
+
+@include bp(bp4) {
+left : 120px; 
+background-image : url(../assets/img/site/example-transitions-02.jpg); }
+}
+
+#hb-transitions-03:target .item__description {
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-03.jpg); }
+}
+
+#hb-transitions-04:target .item__description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-04.jpg); }
+}
+
+#hb-transitions-05:target .item__description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-05.jpg); }
+}
+
+#hb-transitions-06:target .item__description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-06.jpg); }
+}
+
+#hb-transitions-07:target .item__description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-07.jpg); }
+}
+
+#hb-transitions-08:target .item__description {
+
+@include bp(bp4) {
+background-image : url(../assets/img/site/example-transitions-08.jpg); }
 }
 
 
 
 
 
-// target
 
 .item:target {
 
 .item__description {
+
+@include bp(bp4) {
 top : 0;
 left : 0!important;
 width : 100%;
@@ -158,22 +236,28 @@ background-size : auto 220px;
 border : 6px solid $border-color;
 box-shadow : 3px 3px 0 $shadow-color;
 box-sizing : border-box; }
+
+}
 }
 
 
-
-
-// hover
 
 .item:hover {
 
-img {
+.item__img {
+
+@include bp(bp4) {
 box-shadow : 3px 3px 0 $shadow-color;
 transform : scale(1.05);
 transform-origin : 50% 100%; }
-
+}
 }
 
+.item__header {
+@include font-size($font-size-plus-one); }
+
+.list--plain li {
+@include font-size($font-size-minus-one); }
 
 }
 
