@@ -41,7 +41,20 @@ margin-right : 0; }
 
 img {
 border : $img-border-width solid $border-color;
-box-sizing : border-box; }
+box-sizing : border-box; 
+transition : border $transition-duration $transition-timing-function;
+
+@include bp(bp4) {
+border-color : $img-border-color; }
+
+
+&:hover {
+
+@include bp(bp4) {
+border-color : #eceeef;
+box-shadow : $box-shadow; }
+}
+}
 
 }
 
@@ -74,8 +87,9 @@ padding : ($gutter * 2) ($gutter * 2) ($gutter * 2) 280px;
 background-color : $panel-bg;
 background-repeat : no-repeat; 
 background-position : ($gutter * 2) ($gutter * 2); 
-border : $img-border-width solid $border-color;
-box-sizing : border-box; }
+border : $img-border-width solid #eceeef;
+box-sizing : border-box;
+box-shadow : $box-shadow; }
 }
 
 #hb-target-01:target .item__description {

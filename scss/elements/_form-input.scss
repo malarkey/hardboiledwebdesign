@@ -79,8 +79,20 @@ background-image : none;
 border : $input-border-width $input-border-style $input-border-color;
 border-radius: $input-border-radius;
 box-sizing : border-box;
+box-shadow : $input-box-shadow;
 font-family : $input-font-family;
 @include font-size($input-font-size);
 line-height : $vertical-spacing;
 color : $input-font-color; 
-outline : none; }
+outline : none; 
+transition : border-color $transition-duration $transition-timing-function;
+
+&:focus {
+outline : none;
+background-color : #fff;
+border-color : #388fa2; }
+}
+
+textarea.form__input {
+height : $textarea-min-height;
+resize-x : none; }

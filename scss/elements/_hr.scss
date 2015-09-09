@@ -12,3 +12,25 @@ border-bottom : $border;
 (min-resolution: 192dpi) { 
 border-width : .5px; }
 }
+
+
+
+
+// hr__centered
+
+.hr__centered {
+margin : ($vertical-spacing * 1.5) auto;
+max-width : 80px;
+border-width : $border-width;
+column-span : all; }
+
+
+
+
+
+// hr__short
+
+.hr__short {
+margin : ($vertical-spacing * 1.5) 0;
+max-width : 80px;
+border-width : $border-width; }

@@ -1,6 +1,7 @@
 .media {
 margin-bottom : ($vertical-spacing); 
-font-family : $alt-font-family;
+padding : $gutter;
+border : $border-width $border-style $border-color;
 
 @include bp(bp3) {
 display : flex;
@@ -29,7 +30,7 @@ margin-bottom : $vertical-spacing / 8;
 flex : 1; }
 
 blockquote {
-margin-bottom : $vertical-spacing / 4; }
+margin : 0; }
 }
 
 

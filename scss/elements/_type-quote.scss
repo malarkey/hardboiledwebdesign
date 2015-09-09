@@ -1,14 +1,65 @@
 blockquote {
-margin : 0 0 $vertical-spacing 0; 
+margin : ($vertical-spacing * 2) 0; 
 
-p:last-child,
-p:only-child {
-margin-bottom : 0; }
+p {
+font-family : $font-family;
+@include font-size($font-size);
+
+@include bp(bp4) {
+@include font-size($font-size-plus-one); }
+
+}
 
 small {
 font-family : $alt-font-family;
-@include font-size($font-size-minus-one); }
+@include font-size($font-size-minus-one);
+text-transform : uppercase; }
 
 cite {
 font-style : normal; }
+}
+
+
+
+
+// quote--bordered
+
+.quote--bordered {
+margin : $vertical-spacing 0; 
+padding : $vertical-spacing 0;
+border-top : 6px solid $border-color;
+border-bottom : 2px solid $border-color;
+break-after : avoid-column;
+break-before : always; 
+
+p:last-of-type,
+p:only-of-type {
+margin-bottom : ($vertical-spacing / 2); }
+
+}
+
+
+
+
+// quote--centered
+
+.quote--centered {
+margin : $vertical-spacing auto ($vertical-spacing * 1.5);
+padding-top : ($vertical-spacing);
+column-span : all;
+border-top : 6px solid $border-color;
+
+@include bp(bp4) {
+width : 51%; }
+
+p {
+text-align : center; }
+
+p:last-of-type,
+p:only-of-type {
+margin-bottom : ($vertical-spacing / 2); }
+
+small {
+display : block;
+text-align : center; }
 }

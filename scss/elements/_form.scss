@@ -42,14 +42,15 @@ margin-bottom : 0; }
 label {
 display : block;
 max-width : 100%; 
-margin-bottom : 0; 
+margin-bottom : ($vertical-spacing / 4); 
 font-family : $label-font-family;
 @include font-size($label-font-size);
-color : $label-font-color; }
+color : $label-font-color;
+letter-spacing : .1rem;
+text-transform : uppercase; }
 
 
 [role="search"] {
-outline:1px solid red; 
 display : flex; 
 
 .search__input {

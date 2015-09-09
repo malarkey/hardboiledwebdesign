@@ -4,7 +4,7 @@
 position : relative;
 width : 710px; 
 height : 500px; 
-margin : 0 auto $vertical-spacing;
+margin-bottom : $vertical-spacing;
 background : transparent url(../assets/img/site/hgroup.png) no-repeat 50% 100px;
 font-size : .87em; }
 
@@ -42,9 +42,27 @@ cursor : pointer; }
 
 img {
 border : $img-border-width solid $border-color;
-box-sizing : border-box; }
+box-sizing : border-box;
+transition : all $transition-duration $transition-timing-function;
 
+@include bp(bp4) {
+border-color : $img-border-color; }
+
+&:hover {
+
+@include bp(bp4) {
+border-color : #eceeef;
+box-shadow : $box-shadow; }
 }
+}
+}
+
+
+.item__header {
+@include font-size($font-size-plus-one); }
+
+.list--plain li {
+@include font-size($font-size-minus-one); }
 
 
 
@@ -233,32 +251,11 @@ background-origin : padding-box;
 background-position : $gutter $gutter; 
 background-repeat : no-repeat;
 background-size : auto 220px;
-border : 6px solid $border-color;
-box-shadow : 3px 3px 0 $shadow-color;
+border : $img-border-width solid #eceeef;
 box-sizing : border-box; }
 
 }
 }
-
-
-
-.item:hover {
-
-.item__img {
-
-@include bp(bp4) {
-box-shadow : 3px 3px 0 $shadow-color;
-transform : scale(1.05);
-transform-origin : 50% 100%; }
-}
-}
-
-.item__header {
-@include font-size($font-size-plus-one); }
-
-.list--plain li {
-@include font-size($font-size-minus-one); }
-
 }
 
 

@@ -12,7 +12,7 @@ $debug-outline-style			: solid;
 
 // BASICS  ================================================
 
-$body-background 				: #eceeef;
+$body-background 				: #fff;
 $vertical-spacing				: 1.35em;
 $gutter		 					: 20px;
 $max-width						: 140rem;
@@ -83,21 +83,18 @@ $link-color-visited   			: $link-color;
 $link-color-focus 				: $color-secondary;
 
 $base-bg						: #f4f4f4;
-$panel-bg						: #0f2429;
+$panel-bg						: #dfe1e2;
 
 
 
 
 // TEXTURE  ================================================
 
-$border-color    				: #88949f;
+$border-color    				: #ebf4f6;
 $border-style					: solid;
-$border-width 					: 1px;
+$border-width 					: 5px;
 $border-radius 					: 0;
 $border							: $border-width $border-style $border-color;
-
-$img-border-width 				: 5px;
-$shadow-color					: #0f2429;
 
 
 
@@ -137,9 +134,9 @@ $button-border-style 					: $border-style;
 $button-border-width 					: 5px;
 $button-border-radius 					: 0;
 
-$button-font-family						: $alt-font-family;
+$button-font-family						: $bold-font-family;
 $button-font-size 						: $font-size-minus-two;
-$button-font-color 						: $font-color;
+$button-font-color 						: #fff;
 $button-font-weight 					: normal;
 $button-letter-spacing					: 0;
 $button-font-transform 					: uppercase;
@@ -176,18 +173,19 @@ $form-font-color 				: $font-color;
 // Form-inputs
 
 $input-padding					: 6px 11px;
-$input-bg 						: transparent;
+$input-bg 						: #cee3e8;
 
-$input-border-color				: $border-color;
+$input-border-color				: #fff;
 $input-border-color-hover		: $border-color;
 $input-border-color-focus		: $border-color;
 $input-border-style 			: $border-style;
-$input-border-width 			: 2px;
+$input-border-width 			: 4px;
 $input-border-radius 			: $border-radius;
+$input-box-shadow 				: 0 0 0 3px #9Bc7d0;
 
 $input-font-family				: $alt-font-family;
 $input-font-size 				: $font-size-minus-one;
-$input-font-color 				: $white;
+$input-font-color 				: $font-color;
 $input-placeholder-color 		: $font-color;
 $input-placeholder-font-size 	: $font-size;
 
@@ -199,7 +197,7 @@ $textarea-min-height			: 160px;
 
 $label-font-color 				: inherit;
 $label-font-family				: $bold-font-family;
-$label-font-size 				: $font-size;
+$label-font-size 				: $font-size-minus-two;
 
 
 
@@ -211,6 +209,10 @@ $figcaption-font-style			: normal;
 $figcaption-font-weight			: normal;
 $figcaption-text-transform		: none;
 
+$box-shadow 					: 0 5px 5px 0 rgba(0,0,0,0.25), 0 2px 2px 0 rgba(0,0,0,0.5); 
+$img-border-color				: #9bc7d0;
+$img-border-width 				: 10px;
+$shadow-color					: #0f2429;
 
 
 // Misc.

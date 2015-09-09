@@ -20,7 +20,7 @@ position : relative;
 float : left; 
 width : 140px; 
 height : 210px;
-margin : 0 20px $vertical-spacing 0;
+margin : 0 20px 0 0;
 padding : 0;
 border-width : 0; }
 }
@@ -38,8 +38,19 @@ width : auto; }
 
 img {
 border : $img-border-width solid $border-color;
-box-sizing : border-box; }
+box-sizing : border-box;
+transition : all $transition-duration $transition-timing-function;
 
+@include bp(bp4) {
+border-color : $img-border-color; }
+
+&:hover {
+
+@include bp(bp4) {
+border-color : #eceeef;
+box-shadow : $box-shadow; }
+}
+}
 }
 
 
@@ -53,10 +64,10 @@ position : absolute;
 width : 200px; 
 left : -40px;
 padding : $gutter;
-background-color : rgba($panel-bg,.9);
+background-color : rgba($panel-bg,.95);
 border : $img-border-width solid $border-color; 
 box-sizing : border-box;
-box-shadow : 3px 3px 0 $shadow-color;
+box-shadow : $box-shadow;
 transition-property : top, opacity;
 transition-duration : $transition-duration;
 transition-timing-function : $transition-timing-function;
