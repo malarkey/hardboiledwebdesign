@@ -39,7 +39,11 @@ margin-left : 0;
 padding-left : 0; 
 
 @include bp(bp4) {
-column-count : 3;
+columns : 2 12em;
+column-gap : ($gutter * 2); }
+
+@include bp(bp5) {
+columns : 3 8em;
 column-gap : ($gutter * 2); }
 }
 

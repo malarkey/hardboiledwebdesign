@@ -11,6 +11,17 @@ text-shadow : 2px 2px 0 $shadow-color;
 -webkit-text-stroke-width : 1px;
 -webkit-text-stroke-color : rgba($shadow-color,.75); }
 
+.shadow-double { 
+text-shadow : 
+2px 2px 0 $shadow-color,
+2px 5px 10px rgba($shadow-color,.5); }
+
+.shadow-triple { 
+text-shadow : 
+2px 2px 0 $shadow-color,
+2px 5px 10px rgba($shadow-color,.5),
+2px -2px 5px $white; }
+
 img {
 border-color : #fff; }
 

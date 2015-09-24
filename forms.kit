@@ -1,0 +1,72 @@
+<!-- @include partials/variables -->
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<title><!-- $title --></title>
+</head>
+
+<body class="index flex" id="<!-- $id -->">
+
+<!-- @include partials/banner -->
+<!-- @include partials/navigation -->
+
+
+<div class="flex__page">
+
+<div class="container">
+
+<label for="contact--name">Your name</label>
+<input type="text" id="contact--name" class="form__input">
+
+<label for="contact--email">Email address</label>
+<input type="email" id="contact--email" class="form__input">
+
+<label for="contact--url">Website address</label>
+<input type="url" id="contact--url" class="form__input">
+
+<label for="contact--tel">Telephone number</label>
+<input type="tel" id="contact--tel" class="form__input">
+
+<label for="contact--name">Time</label>
+<input type="time" id="contact--name" class="form__input">
+
+<label for="contact--week">Week</label>
+<input type="week" id="contact--week" class="form__input">
+
+<label for="contact--month">Month</label>
+<input type="month" id="contact--month" class="form__input">
+
+<label for="contact--date">Date</label>
+<input type="date" id="contact--date" class="form__input">
+
+<label for="contact--datetime">Choose a detective</label>
+<input type="text" list="detectives" id="contact--list" class="form__input">
+<datalist id="detectives">
+<option value="Mike Hammer">Mike Hammer</option>
+<option value="Sam Spade">Sam Spade</option>
+<option value="Philip Marlowe">Philip Marlowe</option>
+</datalist>
+
+<input type="number" id="book" min="1" step="10">
+<input type="number" id="course" max="6">
+
+<form action="forms.html" method="post">
+<label for="search">Search this site</label>
+<input type="search" id="search" class="search__input" results="10" autosave="gethardboiled">
+<button>Go</button>
+</form>
+
+</div><!-- container -->
+
+</div><!-- flex__page -->
+
+
+
+<!-- @include partials/contentinfo -->
+
+<!-- @include partials/script -->
+
+</body>
+</html>

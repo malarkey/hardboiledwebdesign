@@ -1,0 +1,211 @@
+.gradient {
+float : left;
+width : 240px;
+height : 160px;
+margin : 0 20px 20px 0;
+background-color : $color-primary;
+border : 5px solid rgb(255,255,255); }
+
+.gradient-linear {
+
+.gradient-01 {
+@extend .gradient;
+background-image : linear-gradient(to top, #fed46e, #ba5c61); }
+
+.gradient-02 {
+@extend .gradient;
+background-image : linear-gradient(to right, #fed46e, #ba5c61); }
+
+.gradient-03 {
+@extend .gradient;
+background-image : linear-gradient(to left, #fed46e, #ba5c61); }
+
+.gradient-04 {
+@extend .gradient;
+background-image : linear-gradient(to bottom right, #fed46e, #ba5c61); }
+
+.gradient-05 {
+@extend .gradient;
+background-image : linear-gradient(to bottom left, #fed46e, #ba5c61); }
+
+.gradient-06 {
+@extend .gradient;
+background-image : linear-gradient(to bottom left, #fed46e, #ba5c61); }
+
+.gradient-07 {
+@extend .gradient;
+background-image : linear-gradient(to top right, #fed46e, #ba5c61); }
+
+.gradient-08 {
+@extend .gradient;
+background-image : linear-gradient(30deg, #fed46e, #ba5c61); }
+
+.gradient-09 {
+@extend .gradient;
+background-image : linear-gradient(-30deg, #fed46e, #ba5c61); }
+
+.gradient-10 {
+@extend .gradient;
+background-image : linear-gradient(#b1585d, #fed46e, #388fa2); }
+
+.gradient-11 {
+@extend .gradient;
+background-image : linear-gradient(#b1585d, #fed46e 20%, #388fa2); }
+
+.gradient-12 {
+@extend .gradient;
+background-image : linear-gradient(#b1585d, #fed46e 20%, #388fa2 60%); }
+
+.gradient-13 {
+@extend .gradient;
+background-image : linear-gradient(#b1585d, #fed46e 40%, #388fa2 40%); }
+
+}
+
+
+
+
+.gradient-radial {
+
+.gradient-01 {
+@extend .gradient;
+background-image : radial-gradient(#fed46e, #ba5c61); }
+
+.gradient-02 {
+@extend .gradient;
+background-image : radial-gradient(circle, #fed46e, #ba5c61); }
+
+.gradient-03 {
+@extend .gradient;
+background-image : radial-gradient(circle closest-side, #fed46e, #ba5c61); }
+
+.gradient-04 {
+@extend .gradient;
+background-image : radial-gradient(circle closest-corner, #fed46e, #ba5c61); }
+
+.gradient-05 {
+@extend .gradient;
+background-image : radial-gradient(circle farthest-corner, #fed46e, #ba5c61); }
+
+.gradient-06 {
+@extend .gradient;
+background-image : radial-gradient(circle farthest-side, #fed46e, #ba5c61); }
+
+.gradient-07 {
+@extend .gradient;
+background-image : radial-gradient(circle at top left, #fed46e, #ba5c61); }
+
+.gradient-08 {
+@extend .gradient;
+background-image : radial-gradient(circle at bottom left, #fed46e, #ba5c61); }
+
+.gradient-09 {
+@extend .gradient;
+background-image : radial-gradient(circle at top right, #fed46e, #ba5c61); }
+
+.gradient-10 {
+@extend .gradient;
+background-image : radial-gradient(circle at bottom right, #fed46e, #ba5c61); }
+
+.gradient-11 {
+@extend .gradient;
+background-image : radial-gradient(circle at 80px 30px, #fed46e, #ba5c61); }
+
+.gradient-12 {
+@extend .gradient;
+background-image : radial-gradient(circle at 80px -30px, #fed46e, #ba5c61); }
+
+.gradient-13 {
+@extend .gradient;
+background-image : radial-gradient(circle at 80px -30px, #b1585d, #fed46e, #388fa2); }
+
+.gradient-14 {
+@extend .gradient;
+background-image : radial-gradient(circle at 80px -30px, #b1585d 30%, #fed46e 30%, #fed46e 40%, #388fa2 40%); }
+
+}
+
+
+
+
+.gradient-repeating {
+
+.gradient-01 {
+@extend .gradient;
+background-image: 
+repeating-linear-gradient(
+45deg,
+#fed46e,
+#fed46e 5px,
+#ba5c61 5px,
+#ba5c61 10px); }
+
+.gradient-02 {
+@extend .gradient;
+background-image: 
+repeating-linear-gradient(
+45deg,
+#fed46e,
+#fed46e 10px,
+#ba5c61 10px,
+#ba5c61 20px); }
+
+.gradient-03 {
+@extend .gradient;
+background-image: 
+repeating-linear-gradient(
+-45deg,
+#fed46e,
+#fed46e 10px,
+#ba5c61 10px,
+#ba5c61 20px); }
+
+.gradient-04 {
+@extend .gradient;
+background-image: 
+repeating-linear-gradient(
+90deg,
+#fed46e,
+#fed46e 3px,
+#ba5c61 3px,
+#ba5c61 6px); }
+
+.gradient-05 {
+@extend .gradient;
+background-image: 
+repeating-radial-gradient(
+circle at 50% 100%, 
+#fed46e,
+#ba5c61 20px); }
+
+.gradient-06 {
+@extend .gradient;
+background-image: 
+repeating-radial-gradient(
+circle at 50% 0, 
+#fed46e,
+#ba5c61 40px); }
+
+.gradient-07 {
+@extend .gradient;
+background-image: 
+repeating-radial-gradient(
+circle at 0 50%, 
+#fed46e,
+#ba5c61 40px); }
+
+.gradient-08 {
+@extend .gradient;
+background-image: 
+repeating-radial-gradient(
+ellipse at 100% 50%, 
+#fed46e,
+#ba5c61 40px); }
+
+
+
+
+
+
+
+}

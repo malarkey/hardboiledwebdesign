@@ -24,18 +24,6 @@ background-size : auto, cover; }
 min-height : 900px;
 background : url(../assets/img/site/404-blood.png) no-repeat 50% 0; 
 
-h1 {
-margin : 0;
-font-family : ChunkFive; 
-font-size : 16rem; 
-font-weight : bold;
-text-align : center;
-line-height : 1;
-text-shadow : none;
-color : rgb(224,224,224); 
--webkit-text-fill-color : transparent; 
--webkit-text-stroke : 3px rgb(133,29,25); }
-
 p {
 color : rgb(224,224,224);
 font-family : Boycott; 
@@ -43,7 +31,7 @@ font-size : 1.6rem;
 text-align : center; 
 text-shadow : -1px -1px 2px rgb(0,0,0);  }
 
-h1 + p {
+.splatter__lead {
 margin : -30px 0 .5em 0;
 padding-bottom : .25em;
 border-bottom : 1px solid rgb(224,224,224);
@@ -64,5 +52,14 @@ margin : 0 auto;
 padding-top : 270px; 
 text-shadow : 0 1px 2px rgb(0,0,0); }
 
-
-
+.splatter__heading {
+margin : 0;
+font-family : ChunkFive; 
+font-size : 16rem; 
+font-weight : bold;
+text-align : center;
+line-height : 1;
+text-shadow : none;
+color : rgb(224,224,224); 
+-webkit-text-fill-color : transparent; 
+-webkit-text-stroke : 3px rgb(133,29,25); }

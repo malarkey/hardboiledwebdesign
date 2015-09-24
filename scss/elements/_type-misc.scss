@@ -97,8 +97,15 @@ bottom : -.25em; }
 
 @include bp(bp4) {
 margin-bottom : ($vertical-spacing * 2);
-column-count : 2;
-column-gap : ($gutter * 2); }
+// column-count : 2;
+column-rule : 2px solid $border-color;
+column-width : 32rem;
+column-gap : 4rem; }
+
+@include bp(bp5) {
+// column-count : 3; 
+column-gap : 6rem;
+}
 }
 
 .columns__span {

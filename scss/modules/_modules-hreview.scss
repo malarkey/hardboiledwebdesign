@@ -1,0 +1,38 @@
+.h-review {
+position : relative;
+
+/*
+border-image-repeat : repeat;
+border-image-outset : 5px;
+border-image-source : url(../assets/img/site/h-review.png);
+border-image-slice : 20 fill;
+border-width : 20px; 
+*/
+
+/*
+border-image-repeat : stretch;
+border-image-outset : 0;
+border-image-source : url(../assets/img/site/h-review.svg);
+border-image-slice : 20 20 20 20;
+border-width : 20px; 
+*/
+
+/*
+border-image-repeat : repeat;
+border-image-source : repeating-linear-gradient(-45deg, white, white 3px, $border-color 3px, #9Bc7d0 6px);
+border-image-slice : 10;
+border-width : 10px; 
+*/
+
+border-image-source : linear-gradient(to bottom, #9Bc7d0, #ebf4f6 8rem);
+border-image-slice : 1;
+border-width : 10px;
+  
+img {
+@extend .h-review;
+box-sizing : border-box; 
+border-width : 10px; }
+
+}
+
+

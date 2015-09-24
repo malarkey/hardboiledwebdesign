@@ -1,8 +1,7 @@
 .hb-opacity {
 
 @include bp(bp4) {
-min-width : 620px; 
-@include clearfix(); }
+display : flex; }
 
 
 
@@ -15,14 +14,18 @@ border : $img-border-width solid $border-color;
 border-radius : $border-radius;
 
 @include bp(bp4) {
+
 display : block;
 position : relative;
-float : left; 
-width : 140px; 
-height : 210px;
 margin : 0 20px 0 0;
 padding : 0;
 border-width : 0; }
+
+&:last-child {
+
+@include bp(bp4) {
+margin-right : 0; }
+}
 }
 
 
@@ -32,9 +35,7 @@ margin-left : $gutter;
 width : 133px;
 
 @include bp(bp4) {
-position : absolute;
-margin-left : 0;
-width : auto; }
+margin-left : 0; }
 
 img {
 border : $img-border-width solid $border-color;
@@ -56,7 +57,7 @@ box-shadow : $box-shadow; }
 
 
 .item_description {
-flex : 1;
+flex-grow : 1;
 
 @include bp(bp4) {
 opacity : 0;
@@ -67,23 +68,23 @@ padding : $gutter;
 background-color : rgba($panel-bg,.95);
 border : $img-border-width solid $border-color; 
 box-sizing : border-box;
-box-shadow : $box-shadow;
+text-align : center;
 transition-property : top, opacity;
 transition-duration : $transition-duration;
-transition-timing-function : $transition-timing-function;
-text-align : center; }
+transition-timing-function : $transition-timing-function; }
 }
 
 
 
-.item:hover .item_description,
+.item:hover  .item_description,
 .item:active .item_description,
-.item:focus .item_description {
+.item:focus  .item_description {
 
 @include bp(bp4) {
 opacity : 1;
 z-index : 3;
-top : -80px; }
+top : -80px; 
+box-shadow : $box-shadow; }
 }
 
 
