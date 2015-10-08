@@ -42,3 +42,24 @@ font-family : $font-family; }
 @include font-size($font-size-plus-one); }
 
 }
+
+
+
+
+.hb-bg {
+min-height : 100vh;
+background-color : #332115;
+background-image : 
+radial-gradient(circle at bottom left, transparent, rgba(0,0,0,.8)),
+repeating-linear-gradient(
+90deg,
+#24170b,
+#24170b 6px,
+#291A0b 8px,
+#3e2010 10px,
+#281A11 11px,
+#281A11 12px,
+#25170a 18px,
+#180f06 24px,
+#180f05 24px,
+#180f05 28px); }

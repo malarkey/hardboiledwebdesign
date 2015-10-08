@@ -1,5 +1,4 @@
 .hb-detectives {
-background:red;
 width : 90%;
 margin : 0 auto;
 min-height : 100vh;
@@ -7,12 +6,12 @@ min-height : 100vh;
 @include bp(bp4) {
 position : relative; }
 
+
+// h-card
+
 .h-card {
 width : 300px; 
 height : 195px;
-background-repeat : no-repeat;
-background-position : 50% 50%; 
-background-size : auto;
 box-shadow : 0 2px 1px rgba(0,0,0,.8), 0 2px 10px rgba(0,0,0,.5); 
 
 @include bp(bp4) {
@@ -25,6 +24,7 @@ transition-timing-function : ease-in-out; }
 
 .h-card:nth-of-type(1) {
 background : url(../assets/img/site/example-c01.jpg) no-repeat 50% 50%;
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 100px;
@@ -33,6 +33,7 @@ left : 0; }
 
 .h-card:nth-of-type(2) {
 background : url(../assets/img/site/example-c02.jpg) no-repeat 50% 50%; 
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 80px;
@@ -41,6 +42,7 @@ left : 320px; }
 
 .h-card:nth-of-type(3) {
 background : url(../assets/img/site/example-c03.jpg) no-repeat 50% 50%; 
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 100px;
@@ -49,6 +51,7 @@ left : 640px; }
 
 .h-card:nth-of-type(4) {
 background : url(../assets/img/site/example-c04.jpg) no-repeat 50% 50%; 
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 320px;
@@ -57,6 +60,7 @@ left : 40px; }
 
 .h-card:nth-of-type(5) {
 background : url(../assets/img/site/example-c05.jpg) no-repeat 50% 50%;
+background-size : 300px 195px;
 
 @include bp(bp4) {
 z-index : 2;
@@ -66,6 +70,7 @@ left : 570px; }
 
 .h-card:nth-of-type(6) {
 background : url(../assets/img/site/example-c06.jpg) no-repeat 50% 50%;
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 320px;
@@ -74,6 +79,7 @@ left : 600px; }
 
 .h-card:nth-of-type(7) {
 background : url(../assets/img/site/example-c07.jpg) no-repeat 50% 50%; 
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 540px;
@@ -82,6 +88,7 @@ left : 0; }
 
 .h-card:nth-of-type(8) {
 background : url(../assets/img/site/example-c08.jpg) no-repeat 50% 50%;
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 560px;
@@ -90,14 +97,12 @@ left : 320px; }
 
 .h-card:nth-of-type(9) {
 background : url(../assets/img/site/example-c09.jpg) no-repeat 50% 50%; 
+background-size : 300px 195px;
 
 @include bp(bp4) {
 top : 540px;
 left : 640px; }
 }
-
-.h-card * {
-text-indent : -9999px; }
 
 .h-card:nth-child(odd) {
 transform : rotate(-2deg);
@@ -138,5 +143,7 @@ transform : rotate(92deg) scale(1.05);
 transform-origin : 0 0; } 
 }
 
+.h-card * {
+display : none; }
 
 }

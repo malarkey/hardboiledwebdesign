@@ -230,7 +230,8 @@ opacity : 0; }
 
 p {
 margin : 0; 
-@include font-size($font-size-minus-one);
+@include font-size($font-size-minus-two);
+line-height : 1.3;
 color : $white; 
 
 @include bp(bp4) {

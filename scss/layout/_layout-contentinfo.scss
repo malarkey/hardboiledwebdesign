@@ -2,12 +2,10 @@
 margin : 0 $gutter / 2; 
 padding : $vertical-spacing 0;
 
-
 .inner {
 margin : 0; 
 padding : ($vertical-spacing / 2) 0;
 text-align : center;
-border-top : 5px $border-style $border-color; 
 
 @include bp(bp2) {
 margin : 0 $gutter; }
@@ -24,10 +22,14 @@ width : 95%;
 max-width : $max-width; }
 }
 
+p {
+font-family : $heading-font-family; }
+
 small {
 display : block;
 margin-bottom : ($vertical-spacing / 4);
 font-family : $font-family;
-@include font-size($font-size-minus-two); }
+@include font-size($font-size-minus-two);
+text-transform : uppercase; }
 
 }

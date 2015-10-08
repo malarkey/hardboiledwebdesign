@@ -262,7 +262,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26426,
+		"initialSize": 65923,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/example-c08.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/example-c08.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -273,7 +273,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18843,
+		"initialSize": 15909,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/example-c09.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/example-c09.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -868,6 +868,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/detectives-2.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/detectives-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/detectives-2.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/detectives-2.kit",
+		"outputAbbreviatedPath": "\/detectives-2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/detectives.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1117,15 +1135,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/example-various.kit",
 		"outputAbbreviatedPath": "\/example-various.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/forms.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/forms.html",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1847,6 +1856,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/modules\/_modules-box.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_modules-box.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/modules\/_modules-detectives-2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/modules\/_modules-detectives-2.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_modules-detectives-2.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
