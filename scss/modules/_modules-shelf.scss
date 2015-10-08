@@ -27,7 +27,7 @@ border-radius : $border-radius;
 @include bp(bp4) {
 flex : 1;
 margin : 0;
-padding : 0;
+padding : 10px 5px 30px 5px;
 border-image : url(../assets/img/site/example-shelf-worn.png) 10 10 10 10 round round;  
 border-width : 5px;
 box-sizing : border-box; }
@@ -201,16 +201,16 @@ background-image : none; }
 
 
 .item__header {
-font-family : $bold-font-family;
+margin : 0;
+padding : 0;
+font-family : Chunkfive;
 @include font-size($font-size);
+color : $white;
 
 @include bp(bp4) {
-margin : 14px 0 0 60px;
-@include font-size($font-size-minus-one);
-letter-spacing : 1px;
-text-shadow : 0 1px 1px rgba(0,0,0,.8);
-text-transform : uppercase;
-color : rgb(255,255,255); }
+margin-left : 20px;
+@include font-size($font-size);
+text-shadow : 0 0 1px rgba(0,0,0,.75); }
 
 @include bp(bp5) {
 margin-left : 120px;
@@ -230,9 +230,12 @@ opacity : 0; }
 
 p {
 margin : 0; 
-@include font-size($font-size-minus-one); }
+@include font-size($font-size-minus-one);
+color : $white; 
 
-
+@include bp(bp4) {
+color : $font-color; }
+}
 }
 
 

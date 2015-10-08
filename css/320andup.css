@@ -342,19 +342,23 @@ figcaption {
 }
 @media (min-width: 48em) {
   .figure--horizontal .figure__img {
+    outline: 1px solid red;
     -webkit-box-flex: 2;
-    -webkit-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+    -webkit-flex-grow: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    -webkit-flex-basis: 700px;
+        -ms-flex-preferred-size: 700px;
+            flex-basis: 700px;
     margin-right: 20px;
   }
 }
 @media (min-width: 48em) {
   .figure--horizontal figcaption {
     -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 
@@ -405,7 +409,7 @@ figcaption {
 }
 @media (min-width: 48em) {
   .figure--reverse figcaption {
-    width: 50%;
+    max-width: 50%;
   }
 }
 
@@ -895,6 +899,14 @@ sub {
   }
 }
 
+@media (min-width: 48em) {
+  .columns__break {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
+
 .h-entry header {
   margin-bottom: 1.35em;
   padding-bottom: 1.35em;
@@ -1109,6 +1121,39 @@ blockquote cite {
   background-blend-mode: darken;
   background-color: red;
   background-image: url(../assets/img/site/blends-01.jpg);
+}
+
+.box {
+  margin-bottom: 1.35em;
+  padding: 1rem 1.25rem;
+  background-color: #5f6f7f;
+  border: 5px solid #ebf4f6;
+  border-radius: 0;
+  font-family: "Aller Light Italic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.box p {
+  font-size: 18;
+  line-height: 1.4;
+  color: #fff;
+}
+.box p:last-child,
+.box ul:last-child,
+.box ol:last-child,
+.box table:last-child {
+  margin-bottom: 0;
+}
+
+.box--small {
+  padding: 2px 6px;
+}
+
+.box--large {
+  padding: 16px 22px;
+}
+
+.box__header {
+  margin-bottom: 0.675em;
+  color: #fff;
 }
 
 .faq__question {
@@ -2312,7 +2357,7 @@ blockquote cite {
         -ms-flex: 1;
             flex: 1;
     margin: 0;
-    padding: 0;
+    padding: 10px 5px 30px 5px;
     -webkit-border-image: url(../assets/img/site/example-shelf-worn.png) 10 10 10 10 round round;
          -o-border-image: url(../assets/img/site/example-shelf-worn.png) 10 10 10 10 round round;
             border-image: url(../assets/img/site/example-shelf-worn.png) 10 10 10 10 round round;
@@ -2493,19 +2538,19 @@ blockquote cite {
   }
 }
 .hb-shelf .item__header {
-  font-family: "Aller Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Chunkfive;
   font-size: 18px;
   font-size: 1.8rem;
+  color: #fff;
 }
 @media (min-width: 48em) {
   .hb-shelf .item__header {
-    margin: 14px 0 0 60px;
-    font-size: 16px;
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
-    text-transform: uppercase;
-    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    font-size: 1.8rem;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
   }
 }
 @media (min-width: 64em) {
@@ -2525,6 +2570,12 @@ blockquote cite {
   margin: 0;
   font-size: 16px;
   font-size: 1.6rem;
+  color: #fff;
+}
+@media (min-width: 48em) {
+  .hb-shelf .item_description p {
+    color: #4a4a4a;
+  }
 }
 @media (min-width: 48em) {
   .hb-shelf .item:hover .item_description {
@@ -2646,18 +2697,139 @@ blockquote cite {
   }
 }
 
+.hb-shelf-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  padding-bottom: 1.35em;
+}
+.hb-shelf-2 .item {
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+  margin: 0 0 0.675em 0;
+  padding: 10px 10px 2.7em 100px;
+  background-color: #b1585d;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 60px 100px;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+.hb-shelf-2 .item:last-of-type {
+  margin-right: 0;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+.hb-shelf-2 .item:nth-of-type(odd) {
+  background-color: #806b38;
+}
+.hb-shelf-2 .item:nth-of-type(4n+3) {
+  background-color: #b58a66;
+}
+.hb-shelf-2 .item:nth-of-type(5n+4) {
+  background-color: #5e2f31;
+}
+.hb-shelf-2 .item:nth-of-type(5n+5) {
+  background-color: #48545f;
+}
+.hb-shelf-2 #hb-shelf-01 {
+  background-image: url(../assets/img/site/example-shelf-01.jpg);
+}
+.hb-shelf-2 #hb-shelf-02 {
+  background-image: url(../assets/img/site/example-shelf-02.jpg);
+}
+.hb-shelf-2 #hb-shelf-03 {
+  background-image: url(../assets/img/site/example-shelf-03.jpg);
+}
+.hb-shelf-2 #hb-shelf-04 {
+  background-image: url(../assets/img/site/example-shelf-04.jpg);
+}
+.hb-shelf-2 #hb-shelf-05 {
+  background-image: url(../assets/img/site/example-shelf-05.jpg);
+}
+.hb-shelf-2 #hb-shelf-06 {
+  background-image: url(../assets/img/site/example-shelf-06.jpg);
+}
+.hb-shelf-2 #hb-shelf-07 {
+  background-image: url(../assets/img/site/example-shelf-07.jpg);
+}
+.hb-shelf-2 #hb-shelf-08 {
+  background-image: url(../assets/img/site/example-shelf-08.jpg);
+}
+.hb-shelf-2 #hb-shelf-09 {
+  background-image: url(../assets/img/site/example-shelf-09.jpg);
+}
+.hb-shelf-2 #hb-shelf-10 {
+  background-image: url(../assets/img/site/example-shelf-10.jpg);
+}
+.hb-shelf-2 #hb-shelf-11 {
+  background-image: url(../assets/img/site/example-shelf-11.jpg);
+}
+.hb-shelf-2 #hb-shelf-12 {
+  background-image: url(../assets/img/site/example-shelf-12.jpg);
+}
+.hb-shelf-2 #hb-shelf-13 {
+  background-image: url(../assets/img/site/example-shelf-13.jpg);
+}
+.hb-shelf-2 #hb-shelf-14 {
+  background-image: url(../assets/img/site/example-shelf-14.jpg);
+}
+.hb-shelf-2 #hb-shelf-15 {
+  background-image: url(../assets/img/site/example-shelf-15.jpg);
+}
+.hb-shelf-2 #hb-shelf-16 {
+  background-image: url(../assets/img/site/example-shelf-16.jpg);
+}
+.hb-shelf-2 #hb-shelf-17 {
+  background-image: url(../assets/img/site/example-shelf-17.jpg);
+}
+.hb-shelf-2 #hb-shelf-18 {
+  background-image: url(../assets/img/site/example-shelf-18.jpg);
+}
+.hb-shelf-2 #hb-shelf-19 {
+  background-image: url(../assets/img/site/example-shelf-19.jpg);
+}
+.hb-shelf-2 #hb-shelf-20 {
+  background-image: url(../assets/img/site/example-shelf-20.jpg);
+}
+.hb-shelf-2 .item__header {
+  margin: 0;
+  padding: 0;
+  font-family: Chunkfive;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.hb-shelf-2 .item_description p {
+  margin: 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
 @media (min-width: 48em) {
   .hb-target {
     position: relative;
-    width: 600px;
+    max-width: 700px;
     padding-bottom: 2.7em;
-  }
-  .hb-target:before, .hb-target:after {
-    content: "";
-    display: table;
-  }
-  .hb-target:after {
-    clear: both;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 }
 .hb-target .item {
@@ -2673,21 +2845,27 @@ blockquote cite {
 @media (min-width: 48em) {
   .hb-target .item {
     display: block;
-    float: left;
-    width: 130px;
     padding: 0;
     margin: 0 20px 20px 0;
     border-width: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 130px;
+        -ms-flex: 1 0 130px;
+            flex: 1 0 130px;
   }
 }
-@media (min-width: 48em) {
-  .hb-target .item .item:last-child {
-    margin-right: 0;
-  }
+.hb-target .item:nth-of-type(4) {
+  margin-right: 0;
+}
+.hb-target .item:nth-of-type(8) {
+  margin-right: 0;
 }
 .hb-target .item__img {
   margin-right: 20px;
-  width: 133px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 133px;
+      -ms-flex: 0 0 133px;
+          flex: 0 0 133px;
 }
 @media (min-width: 48em) {
   .hb-target .item__img {
@@ -2715,12 +2893,6 @@ blockquote cite {
   width: auto;
   border-width: 0;
 }
-.hb-target .item .item__description {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
 @media (min-width: 48em) {
   .hb-target .item .item__description {
     opacity: 0;
@@ -2732,8 +2904,8 @@ blockquote cite {
 @media (min-width: 48em) {
   .hb-target .item:target .item__description {
     opacity: 1;
-    width: 585px;
-    height: 410px;
+    width: 100%;
+    height: 480px;
     padding: 40px 40px 40px 280px;
     background-color: #dfe1e2;
     background-repeat: no-repeat;

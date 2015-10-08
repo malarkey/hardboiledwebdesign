@@ -2,9 +2,12 @@
 
 @include bp(bp4) {
 position : relative;
-width : 600px; 
+max-width : 700px; 
 padding-bottom : ($vertical-spacing * 2); 
-@include clearfix(); }
+display : flex;
+flex-wrap : wrap;
+
+ }
 
 
 
@@ -17,24 +20,27 @@ border-radius : $border-radius;
 
 @include bp(bp4) {
 display : block;
-float : left; 
-width : 130px; 
+// float : left; 
+// width : 130px; 
 padding : 0;
 margin : 0 20px 20px 0;
-border-width : 0; }
-
-.item:last-child {
-
-@include bp(bp4) {
-margin-right : 0; }
-}
+border-width : 0;
+flex : 1 0 130px; }
 }
 
+
+.item:nth-of-type(4) {
+margin-right : 0;
+}
+
+.item:nth-of-type(8) {
+margin-right : 0;
+}
 
 
 .item__img {
 margin-right : $gutter;
-width : 133px;
+flex : 0 0 133px;
 
 @include bp(bp4) {
 margin-right : 0; }
@@ -67,7 +73,7 @@ border-width : 0; }
 
 
 .item .item__description {
-flex : 1;
+// flex : 1;
 
 @include bp(bp4) {
 opacity : 0;
@@ -81,8 +87,8 @@ left : 0; }
 
 @include bp(bp4) {
 opacity : 1;
-width : 585px;
-height : 410px;
+width : 100%;
+height : 480px;
 padding : ($gutter * 2) ($gutter * 2) ($gutter * 2) 280px; 
 background-color : $panel-bg;
 background-repeat : no-repeat; 

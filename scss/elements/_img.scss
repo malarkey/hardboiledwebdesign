@@ -59,14 +59,16 @@ display : flex; }
 .figure__img {
 
 @include bp(bp4) {
-flex : 2;
+outline:1px solid red;
+flex-grow : 2;
+flex-basis : 700px;
 margin-right : $gutter; }
 }
 
 figcaption {
 
 @include bp(bp4) {
-flex : 1; }
+flex-grow : 1; }
 }
 
 }
@@ -110,7 +112,7 @@ figcaption {
 margin-bottom : ($vertical-spacing / 2);
 
 @include bp(bp4) {
-width : 50%; }
+max-width : 50%; }
 }
 
 }

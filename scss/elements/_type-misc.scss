@@ -116,6 +116,16 @@ column-span : all; }
 }
 
 
+.columns__break {
+
+@include bp(bp4) {
+-webkit-column-break-inside : avoid; 
+page-break-inside : avoid; 
+break-inside : avoid;  }
+
+}
+
+
 
 
 // h-entry

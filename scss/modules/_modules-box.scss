@@ -1,0 +1,29 @@
+.box {
+margin-bottom : $vertical-spacing;
+padding : $box-padding;
+background-color : $box-bg;
+border : $box-border-width $box-border-style $box-border-color;
+border-radius : $box-border-radius;
+font-family : $box-font-family;
+
+p {
+font-size : $box-font-size;
+line-height : 1.4;
+color : $box-font-color; }
+
+p:last-child,
+ul:last-child,
+ol:last-child,
+table:last-child {
+margin-bottom : 0; }
+}
+
+.box--small {
+padding : $box-small-padding; }
+
+.box--large {
+padding : $box-large-padding; }
+
+.box__header {
+margin-bottom : $vertical-spacing / 2;
+color : $box-font-color; }
