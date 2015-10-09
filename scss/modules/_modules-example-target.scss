@@ -79,7 +79,10 @@ border-width : 0; }
 opacity : 0;
 position : absolute;
 top : 0;
-left : 0; }
+left : 0;
+width : 10px;
+height : 10px;
+overflow : hidden; }
 }
 
 
@@ -95,61 +98,71 @@ background-repeat : no-repeat;
 background-position : ($gutter * 2) ($gutter * 2); 
 border : $img-border-width solid #eceeef;
 box-sizing : border-box;
-box-shadow : $box-shadow; }
+box-shadow : $box-shadow;
+overflow : visible; }
 }
 
 #hb-target-01:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-01.jpg); } 
+background-image : url(../assets/img/site/example-dashiellhammett-01.jpg);
+background-size : 200px 300px; } 
 }
 
 #hb-target-02:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-02.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-02.jpg); 
+background-size : 200px 300px; }
 }
 
 #hb-target-03:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-03.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-03.jpg); 
+background-size : 200px 300px; }
 }
 
 #hb-target-04:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-04.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-04.jpg); 
+background-size : 200px 300px; }
 }
 
 #hb-target-05:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-05.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-05.jpg); 
+background-size : 200px 300px; }
 }
 
 #hb-target-06:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-06.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-06.jpg); 
+background-size : 200px 300px; }
 }
 
 #hb-target-07:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-07.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-07.jpg); 
+background-size : 200px 300px; }
 }
 
 #hb-target-08:target .item__description {
 
 @include bp(bp4) {
-background-image : url(../assets/img/site/example-target-08.jpg); }
+background-image : url(../assets/img/site/example-dashiellhammett-08.jpg); 
+background-size : 200px 300px; }
 }
 
 .item .item__description a[href="#hb-target"] {
 display : none;
 
 @include bp(bp4) {
+z-index : 100;
 position : absolute;
 top : -($gutter);
 right : -($gutter);

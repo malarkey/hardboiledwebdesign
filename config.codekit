@@ -181,6 +181,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/site\/example-avatar-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26452,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-avatar-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-avatar-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-avatar-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24537,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-avatar-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-avatar-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-avatar-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25147,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-avatar-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-avatar-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/site\/example-c01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -280,6 +313,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/site\/example-dashiellhammett-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160431,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161484,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172056,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163245,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-04.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153420,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-05.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145027,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-06.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174898,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-07.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-dashiellhammett-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175132,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-08.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/site\/example-opacity-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -342,6 +463,72 @@
 		"initialSize": 265165,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/example-panel-02.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/example-panel-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-raymondchandler-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178506,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-raymondchandler-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 167763,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-raymondchandler-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187460,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-raymondchandler-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176364,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-04.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-raymondchandler-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154834,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-05.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-raymondchandler-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174404,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-06.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-raymondchandler-06.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

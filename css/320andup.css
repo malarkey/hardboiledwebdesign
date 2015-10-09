@@ -2918,6 +2918,9 @@ blockquote cite {
     position: absolute;
     top: 0;
     left: 0;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
   }
 }
 @media (min-width: 48em) {
@@ -2932,46 +2935,55 @@ blockquote cite {
     border: 10px solid #eceeef;
     box-sizing: border-box;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25), 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    overflow: visible;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-01:target .item__description {
-    background-image: url(../assets/img/site/example-target-01.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-01.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-02:target .item__description {
-    background-image: url(../assets/img/site/example-target-02.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-02.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-03:target .item__description {
-    background-image: url(../assets/img/site/example-target-03.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-03.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-04:target .item__description {
-    background-image: url(../assets/img/site/example-target-04.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-04.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-05:target .item__description {
-    background-image: url(../assets/img/site/example-target-05.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-05.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-06:target .item__description {
-    background-image: url(../assets/img/site/example-target-06.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-06.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-07:target .item__description {
-    background-image: url(../assets/img/site/example-target-07.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-07.jpg);
+    background-size: 200px 300px;
   }
 }
 @media (min-width: 48em) {
   .hb-target #hb-target-08:target .item__description {
-    background-image: url(../assets/img/site/example-target-08.jpg);
+    background-image: url(../assets/img/site/example-dashiellhammett-08.jpg);
+    background-size: 200px 300px;
   }
 }
 .hb-target .item .item__description a[href="#hb-target"] {
@@ -2979,6 +2991,7 @@ blockquote cite {
 }
 @media (min-width: 48em) {
   .hb-target .item .item__description a[href="#hb-target"] {
+    z-index: 100;
     position: absolute;
     top: -20px;
     right: -20px;
@@ -3302,43 +3315,43 @@ blockquote cite {
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-01:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-01.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-01.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-02:target .item__description {
     left: 120px;
-    background-image: url(../assets/img/site/example-transitions-02.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-02.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-03:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-03.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-03.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-04:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-04.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-04.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-05:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-05.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-05.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-06:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-06.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-06.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-07:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-07.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-07.jpg);
   }
 }
 @media (min-width: 48em) {
   .hb-transitions #hb-transitions-08:target .item__description {
-    background-image: url(../assets/img/site/example-transitions-08.jpg);
+    background-image: url(../assets/img/site/example-raymondchandler-08.jpg);
   }
 }
 @media (min-width: 48em) {
