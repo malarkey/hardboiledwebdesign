@@ -295,7 +295,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 65923,
+		"initialSize": 26426,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/example-c08.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/example-c08.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -306,7 +306,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15909,
+		"initialSize": 18843,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/example-c09.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/example-c09.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1322,6 +1322,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/example-various.kit",
 		"outputAbbreviatedPath": "\/example-various.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/forms.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/forms.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

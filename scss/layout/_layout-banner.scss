@@ -31,10 +31,12 @@ font-family : $bold-font-family;
 color : #fff;
 letter-spacing : .1rem;
 text-transform : uppercase;
+filter : blur(1px);
+transition : all $transition-duration $transition-timing-function; 
 
 &:hover {
-background-color : $color-accent;
-color : $font-color; }
+color : #fff;
+filter : blur(0px); }
 }
 }
 

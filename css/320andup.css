@@ -479,6 +479,14 @@ body {
   background-image: radial-gradient(circle at bottom left, transparent, rgba(0, 0, 0, 0.8)), repeating-linear-gradient(90deg, #24170b, #24170b 6px, #291A0b 8px, #3e2010 10px, #281A11 11px, #281A11 12px, #25170a 18px, #180f06 24px, #180f05 24px, #180f05 28px);
 }
 
+.hb-bg-light {
+  min-height: 100vh;
+  background-color: purple;
+  background-image: -webkit-radial-gradient(circle at bottom left, transparent, #f00), -webkit-repeating-linear-gradient(0deg, #24170b, #24170b 6px, #291A0b 8px, #3e2010 10px, #281A11 11px, #281A11 12px, #25170a 18px, #180f06 24px, #180f05 24px, #180f05 28px);
+  background-image: radial-gradient(circle at bottom left, transparent, #f00), repeating-linear-gradient(90deg, #24170b, #24170b 6px, #291A0b 8px, #3e2010 10px, #281A11 11px, #281A11 12px, #25170a 18px, #180f06 24px, #180f05 24px, #180f05 28px);
+  background-blend-mode: color, screen;
+}
+
 table {
   width: 100%;
   max-width: 100%;
@@ -1096,37 +1104,37 @@ blockquote cite {
 
 .blend-example-01 {
   background-blend-mode: multiply;
-  background-color: red;
+  background-color: #8c4549;
   background-image: url(../assets/img/site/blends-01.jpg);
 }
 
 .blend-example-02 {
   background-blend-mode: exclusion;
-  background-color: red;
+  background-color: #8c4549;
   background-image: url(../assets/img/site/blends-01.jpg);
 }
 
 .blend-example-03 {
   background-blend-mode: lighten;
-  background-color: red;
+  background-color: #8c4549;
   background-image: url(../assets/img/site/blends-01.jpg);
 }
 
 .blend-example-04 {
-  background-blend-mode: difference;
-  background-color: red;
+  background-blend-mode: overlay;
+  background-color: #8c4549;
   background-image: url(../assets/img/site/blends-01.jpg);
 }
 
 .blend-example-05 {
   background-blend-mode: saturation;
-  background-color: red;
+  background-color: #8c4549;
   background-image: url(../assets/img/site/blends-01.jpg);
 }
 
 .blend-example-06 {
-  background-blend-mode: darken;
-  background-color: red;
+  background-blend-mode: color-dodge;
+  background-color: #8c4549;
   background-image: url(../assets/img/site/blends-01.jpg);
 }
 
@@ -3949,10 +3957,15 @@ blockquote cite {
   color: #fff;
   letter-spacing: .1rem;
   text-transform: uppercase;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-transition: all 0.25s ease;
+          transition: all 0.25s ease;
 }
 [role="banner"] a:hover {
-  background-color: #fed46e;
-  color: #4a4a4a;
+  color: #fff;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
 }
 
 .banner__logo {

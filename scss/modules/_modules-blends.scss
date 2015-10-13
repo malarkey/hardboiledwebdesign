@@ -10,35 +10,35 @@ padding-top : 100%; }
 .blend-example-01 {
 @extend .blend-example;
 background-blend-mode : multiply;
-background-color : red;
+background-color : #8c4549;
 background-image : url(../assets/img/site/blends-01.jpg); }
 
 .blend-example-02 {
 @extend .blend-example;
 background-blend-mode : exclusion;
-background-color : red;
+background-color : #8c4549;
 background-image : url(../assets/img/site/blends-01.jpg); }
 
 .blend-example-03 {
 @extend .blend-example;
 background-blend-mode : lighten;
-background-color : red;
+background-color : #8c4549;
 background-image : url(../assets/img/site/blends-01.jpg); }
 
 .blend-example-04 {
 @extend .blend-example;
-background-blend-mode : difference;
-background-color : red;
+background-blend-mode : overlay;
+background-color : #8c4549;
 background-image : url(../assets/img/site/blends-01.jpg); }
 
 .blend-example-05 {
 @extend .blend-example;
 background-blend-mode : saturation;
-background-color : red;
+background-color : #8c4549;
 background-image : url(../assets/img/site/blends-01.jpg); }
 
 .blend-example-06 {
 @extend .blend-example;
-background-blend-mode : darken;
-background-color : red;
+background-blend-mode : color-dodge;
+background-color : #8c4549;
 background-image : url(../assets/img/site/blends-01.jpg); }

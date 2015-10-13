@@ -19,7 +19,10 @@ z-index : 1;
 position : absolute;
 transition-property : all;
 transition-duration : .4s;
-transition-timing-function : ease-in-out; }
+transition-timing-function : ease-in-out;
+// mix-blend-mode : luminosity;
+// filter : grayscale(100%); 
+}
 }
 
 .h-card:nth-of-type(1) {
