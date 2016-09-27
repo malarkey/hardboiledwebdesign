@@ -1,21 +1,24 @@
 .hb-3d {
-@include clearfix();
+// @include clearfix();
+display : flex;
 
-@include bp(bp4) {
-perspective : 1100; 
-perspective-origin : center center; }
+@include bp(bp5) {
+padding-left : 60px;
+perspective : 1200; 
+perspective-origin : center center; 
+}
 
 
 
 .item {
-float : left;
-margin-right : $gutter; 
+flex : 1;
+margin-right : ($gutter / 2); 
 margin-bottom : $vertical-spacing;
 padding : ($gutter / 2);
 border : $img-border-width solid $border-color; 
 border-radius : $border-radius;
 
-@include bp(bp4) {
+@include bp(bp5) {
 margin : 0;
 padding : 0;
 border-width : 0;
@@ -29,7 +32,7 @@ transform-origin : 50% 0; }
 
 .item:last-child {
  
-@include bp(bp4) {
+@include bp(bp5) {
 margin-right : 0; }
 }
 
@@ -38,17 +41,20 @@ margin-right : 0; }
 margin-bottom : ($vertical-spacing / 2);
 
 img {
+max-width : 140px;
 border : $img-border-width solid $border-color;
 box-sizing : border-box;
 transition : all $transition-duration $transition-timing-function;
 
-@include bp(bp4) {
+@include bp(bp5) {
+max-width : 200px;
 border-color : $img-border-color;
-box-shadow : $box-shadow; }
+box-shadow : $box-shadow; 
+}
 
 &:hover {
 
-@include bp(bp4) {
+@include bp(bp5) {
 border-color : #eceeef; }
 }
 }
@@ -58,15 +64,16 @@ border-color : #eceeef; }
 
 .item__description {
 
-@include bp(bp4) {
+@include bp(bp5) {
 position : relative;
-top : -150px;
-padding : 20px;
-width : 120px;
-background-color : $panel-bg;
-border : $img-border-width solid $border-color;
+ top : -150px;
+ padding : 11px;
+ width : 160px;
+ background-color : $panel-bg;
+ border : $img-border-width solid $border-color;
 border-radius : $border-radius;
-box-shadow : $box-shadow;
+box-sizing : border-box;
+box-shadow : -20px 20px 30px rgba(0,0,0,.25);
 text-align : center;
 transition-property : transform, box-shadow;
 transition-duration : $transition-duration;
@@ -77,22 +84,21 @@ transform : translateZ(80px); }
 
 .item:hover {
 
-@include bp(bp4) {
+@include bp(bp5) {
 transform : rotateY(0); 
 
 .item__description {
-transform : translateZ(5px) translateX(20px);  } 
+transform : translateZ(5px) translateX(20px);
+box-shadow : 0 10px 15px rgba(0,0,0,.5);  } 
 }
 }
 
 
 
 .item__header {
-@include font-size($font-size); }
+@include font-size($font-size-minus-one); }
 
-
-
-.list--plain li {
-@include font-size($font-size-minus-two); }
+.tertiary {
+margin-bottom : 0; }
 
 }

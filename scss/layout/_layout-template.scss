@@ -60,9 +60,6 @@ margin : 0 $gutter; }
 @include bp(bp3) {
 margin : 0 $gutter * 2; }
 
-@include bp(bp4) {
-margin : 0 $gutter * 3; }
-
 @include bp(bp6) {
 margin : 0 auto;
 width : 95%;
@@ -151,4 +148,34 @@ float : left;
 width : 20%;
 margin-right : -100%;
 margin-left : 79.9826%; }
+}
+
+
+
+
+.flex-order {
+display : flex;
+flex-direction : column;
+
+[role="banner"] {
+order : 1; }
+	
+[role="navigation"] {
+// margin-bottom : 0;
+order : 2;
+background-image : none;
+background-color: rgba(#cacfd0,.25); }
+
+.container {
+order : 3;
+padding : 0 $gutter; }
+
+[role="contentinfo"] {
+margin : 0;
+padding : ($vertical-spacing / 4) 44px 0;
+order : 4;
+
+}
+	
+	
 }

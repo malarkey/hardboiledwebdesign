@@ -1,11 +1,12 @@
 .h-review {
 position : relative;
 
+
 /*
 border-image-repeat : repeat;
 border-image-outset : 5px;
 border-image-source : url(../assets/img/site/h-review.png);
-border-image-slice : 20 fill;
+border-image-slice : 20 ;
 border-width : 20px; 
 */
 
@@ -24,8 +25,14 @@ border-image-slice : 10;
 border-width : 10px; 
 */
 
+/*
+border-image-source : linear-gradient(to bottom, #9Bc7d0, #ebf4f6 100%);
+border-image-slice : 10;
+border-width : 10px;
+*/
+
 border-image-source : linear-gradient(to bottom, #9Bc7d0, #ebf4f6 8rem);
-border-image-slice : 1;
+border-image-slice : 10;
 border-width : 10px;
   
 img {

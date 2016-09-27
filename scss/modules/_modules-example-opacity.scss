@@ -84,9 +84,17 @@ transition-timing-function : $transition-timing-function; }
 opacity : 1;
 z-index : 3;
 top : -80px; 
-box-shadow : $box-shadow; }
+box-shadow : $box-shadow; 
+}
 }
 
+.item:nth-of-type(4) .item_description {
+opacity : 1;
+z-index : 3;
+top : -80px; 
+box-shadow : 0 5px 5px 0 rgba(0,0,0,0.25), 
+0 2px 2px 0 rgba(0,0,0,0.5);
+}
 
 
 .item__header {

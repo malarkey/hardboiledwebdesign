@@ -95,14 +95,14 @@ bottom : -.25em; }
 
 .columns {
 
-@include bp(bp4) {
+@include bp(bp3) {
 margin-bottom : ($vertical-spacing * 2);
 // column-count : 2;
 column-rule : 2px solid $border-color;
 column-width : 32rem;
 column-gap : 4rem; }
 
-@include bp(bp5) {
+@include bp(bp3) {
 // column-count : 3; 
 column-gap : 6rem;
 }
@@ -110,7 +110,7 @@ column-gap : 6rem;
 
 .columns__span {
 
-@include bp(bp4) {
+@include bp(bp3) {
 margin : $vertical-spacing 0 ($vertical-spacing / 2);
 column-span : all; }
 }
@@ -118,7 +118,7 @@ column-span : all; }
 
 .columns__break {
 
-@include bp(bp4) {
+@include bp(bp3) {
 -webkit-column-break-inside : avoid; 
 page-break-inside : avoid; 
 break-inside : avoid;  }
@@ -126,6 +126,19 @@ break-inside : avoid;  }
 }
 
 
+
+
+.columns-spillane {
+
+@include bp(bp3) {
+column-count : 2;
+column-gap : 33px; }
+
+@include bp(bp6) {
+column-count : 3;
+column-gap : 44px; }
+
+}
 
 
 // h-entry

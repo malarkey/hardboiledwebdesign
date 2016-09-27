@@ -1,10 +1,10 @@
 p { 
 margin-bottom : $vertical-spacing; 
-@include font-size($font-size);
+@include font-size($font-size-minus-one);
 line-height : 1.4; 
 
 @include bp(bp4) {
-@include font-size($font-size-plus-one);
+@include font-size($font-size);
 line-height : 1.6; }
 
 @include bp(bp5) { 
@@ -21,10 +21,10 @@ line-height : 1.5; }
 }
 
 .secondary {
-@include font-size($font-size-minus-one);
+@include font-size($font-size-minus-two);
 
 @include bp(bp4) {
-@include font-size($font-size); }
+@include font-size($font-size-minus-one); }
 }
 
 .tertiary {

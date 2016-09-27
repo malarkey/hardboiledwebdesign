@@ -37,13 +37,13 @@ $font-size-minus-one			: 16;
 $font-size-minus-two			: 14;
 $font-size-minus-three			: 12;
 
-$font-family 					: "Aller Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family 					: "Aller Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-color 					: #4a4a4a;
 $font-lineheight 				: 1.6;
 
 // Alt
 
-$alt-font-family 				: "Aller Light Italic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$alt-font-family 				: "Aller Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $alt-font-color 				: #acaeaf;
 $alt-font-lineheight 			: $font-lineheight;
 
@@ -115,7 +115,7 @@ $box-border-width 				: $border-width;
 $box-border-radius 				: $border-radius;
 
 $box-font-family				: $alt-font-family;
-$box-font-size 					: $font-size;
+$box-font-size 					: $font-size-minus-one;
 $box-font-color 				: $white;
 
 $box-large-padding				: 16px 22px;

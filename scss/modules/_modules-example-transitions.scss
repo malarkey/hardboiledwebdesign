@@ -5,7 +5,9 @@ position : relative;
 width : 710px; 
 height : 500px; 
 margin-bottom : $vertical-spacing;
-background : transparent url(../assets/img/site/hgroup.png) no-repeat 50% 100px;
+background : transparent url(../assets/img/site/hgroup.jpg) no-repeat 50% 0;
+background-size : cover;
+
 font-size : .87em; }
 
 

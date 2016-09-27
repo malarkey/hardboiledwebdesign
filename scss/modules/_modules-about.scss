@@ -1,15 +1,16 @@
 .hb-about {
 position : relative;
-background-color : #332115;
-background-image : 
-radial-gradient(circle at bottom left, transparent, rgba(0,0,0,.8)),
-// url(../assets/img/site/about-wood.jpg)
+background-color : #fff;
+// background-color : #332115;
+// background-image : radial-gradient(circle at bottom left, transparent, rgba(0,0,0,.8)),
+// url(../assets/img/site/about-wood.jpg);
 // linear-gradient(90deg, #472615 50%, transparent 50%);
 // background-size : auto, 6px;
 // background-position : 0 100%, 50% 50%;
 // background-repeat : no-repeat, repeat;
 
-repeating-linear-gradient(
+/* 
+background-image : repeating-linear-gradient(
 90deg,
 #24170b,
 #24170b 6px,
@@ -21,6 +22,7 @@ repeating-linear-gradient(
 #180f06 24px,
 #180f05 24px,
 #180f05 28px);
+*/
 
 min-height : 100vh;
 
@@ -29,7 +31,7 @@ position : absolute;
 top : 140px;
 left : 50%;
 z-index : 10;
-transform : skew(-10deg, -5deg);
+transform : skew(-5deg, -2deg);
 width : 280px;
 height : 280px;
 margin-left : -150px;
@@ -64,7 +66,7 @@ position : absolute;
 top : 200px;
 left : 70%;
 z-index : 100;
-transform : skew(10deg, 5deg);
+transform : skew(5deg, -5deg);
 width : 280px;
 height : 280px;
 margin-left : -150px;

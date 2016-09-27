@@ -3,12 +3,12 @@ margin-top : 0; }
 
 h1 { 
 margin-bottom : 1rem;
-@include font-size($font-size-plus-five);
+@include font-size($font-size-plus-four);
 font-family : $heading-font-family;
 font-weight : $heading-font-weight; 
 
 @include bp(bp4) {
-@include font-size($font-size-plus-six); }
+@include font-size($font-size-plus-five); }
 }
 
 h2 { 

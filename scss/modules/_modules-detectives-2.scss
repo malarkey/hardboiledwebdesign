@@ -2,6 +2,7 @@
 width : 90%;
 margin : 0 auto;
 min-height : 100vh;
+margin-top : $vertical-spacing;
 
 @include bp(bp4) {
 position : relative; }
@@ -12,6 +13,7 @@ position : relative; }
 .h-card {
 width : 300px; 
 height : 195px;
+margin-bottom : $vertical-spacing;
 box-shadow : 0 2px 1px rgba(0,0,0,.8), 0 2px 10px rgba(0,0,0,.5); 
 
 @include bp(bp4) {
@@ -19,10 +21,7 @@ z-index : 1;
 position : absolute;
 transition-property : all;
 transition-duration : .4s;
-transition-timing-function : ease-in-out;
-// mix-blend-mode : luminosity;
-// filter : grayscale(100%); 
-}
+transition-timing-function : ease-in-out; }
 }
 
 .h-card:nth-of-type(1) {

@@ -3,8 +3,9 @@
 @include bp(bp4) {
 position : relative;
 width : 760px; 
-height : 500px; 
-background : transparent url(../assets/img/site/hgroup.png) no-repeat 100% 100px; }
+height : 315px; 
+background : transparent url(../assets/img/site/hgroup.jpg) no-repeat 50% 0;
+background-size : cover; }
 
 
 
@@ -42,7 +43,11 @@ transition-timing-function : ease-in-out; }
 
 img {
 border : $img-border-width solid $border-color; 
-box-sizing : border-box; }
+box-sizing : border-box; 
+
+@include bp(bp4) {
+border-color : $img-border-color; }
+}
 
 }
 
@@ -59,28 +64,28 @@ transform-origin : 50% 100%; }
 
 
 #hb-landscape-01 .item__img {
-top : 0;
-left : 0; }
+top : 5px;
+left : 5px; }
 
 #hb-landscape-02 .item__img {
-top : 0;
-left : 120px; }
+top : 5px;
+left : 125px; }
 
 #hb-landscape-03 .item__img {
-top : 0;
-left : 240px; }
+top : 5px;
+left : 245px; }
 
 #hb-landscape-04 .item__img {
 top : 170px;
-left : 0; }
+left : 5px; }
 
 #hb-landscape-05 .item__img {
 top : 170px;
-left : 120px;  }
+left : 125px;  }
 
 #hb-landscape-06 .item__img {
 top : 170px;
-left : 240px; }
+left : 245px; }
 
 
 
@@ -130,16 +135,17 @@ left : 240px; }
 
 @include bp(bp4) {
 position : absolute; 
-top : 0!important;
-left : 360px!important;
+top : 5px!important;
+left : 365px!important;
 width : 390px;
-height : 270px; 
+height : 305px; 
 padding : 20px;
 opacity : 1;
 background-color : $panel-bg;
 background-size : auto 270px;
 background-origin : padding-box;
-border : $img-border-width solid $border-color; }
+border : $img-border-width solid $border-color;
+box-sizing : border-box; }
 }
 
 .item__header {

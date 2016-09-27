@@ -26,10 +26,11 @@ p {
 font-family : $heading-font-family; }
 
 small {
-display : block;
+// display : block;
 margin-bottom : ($vertical-spacing / 4);
 font-family : $font-family;
-@include font-size($font-size-minus-two);
-text-transform : uppercase; }
+@include font-size($font-size-minus-three);
+text-transform : uppercase; 
+}
 
 }

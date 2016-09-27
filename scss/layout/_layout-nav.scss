@@ -34,7 +34,8 @@ padding : 0;
 display : flex;
 
 li {
-margin-right : $gutter; 
+flex : 1;
+margin-right : ($gutter / 2); 
 
 &:nth-of-type(3) {
 margin-left : auto; }

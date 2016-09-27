@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "19102",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -37,6 +37,17 @@
 		"outputAbbreviatedPath": "\/about.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/img\/fpo\/blend-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205896,
+		"inputAbbreviatedPath": "\/assets\/img\/fpo\/blend-01.png",
+		"outputAbbreviatedPath": "\/assets\/img\/fpo\/blend-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/fpo\/fpo-avatar-1.jpg": {
 		"fileType": 16384,
@@ -397,6 +408,39 @@
 		"initialSize": 175132,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-08.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/example-dashiellhammett-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-mickeyspillane-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363738,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-mickeyspillane-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-mickeyspillane-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-mickeyspillane-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323745,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-mickeyspillane-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-mickeyspillane-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/example-mickeyspillane-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317602,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/example-mickeyspillane-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/example-mickeyspillane-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -984,6 +1028,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/site\/figure-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 404105,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/figure-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/figure-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/figure-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 276960,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/figure-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/figure-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/figure-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 447313,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/figure-03.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/figure-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/site\/h-review.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -991,6 +1068,17 @@
 		"initialSize": 2904,
 		"inputAbbreviatedPath": "\/assets\/img\/site\/h-review.png",
 		"outputAbbreviatedPath": "\/assets\/img\/site\/h-review.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/site\/hgroup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253306,
+		"inputAbbreviatedPath": "\/assets\/img\/site\/hgroup.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/site\/hgroup.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1043,6 +1131,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bookshelf.kit",
 		"outputAbbreviatedPath": "\/bookshelf.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/columns.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/columns.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/columns.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/columns.kit",
+		"outputAbbreviatedPath": "\/columns.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1343,6 +1449,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/hgroup.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47806,
+		"inputAbbreviatedPath": "\/hgroup.png",
+		"outputAbbreviatedPath": "\/hgroup.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index-order.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index-order.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index-order.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index-order.kit",
+		"outputAbbreviatedPath": "\/index-order.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index-short.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1436,6 +1571,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/partials\/_banner.kit",
 		"outputAbbreviatedPath": "\/partials\/_banner.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/_comments.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/_comments.kit",
+		"outputAbbreviatedPath": "\/partials\/_comments.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2546,8 +2690,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -2556,6 +2708,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
@@ -3072,7 +3228,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,

@@ -38,11 +38,11 @@ list-style-type : none;
 margin-left : 0; 
 padding-left : 0; 
 
-@include bp(bp4) {
+@include bp(bp2) {
 columns : 2 12em;
 column-gap : ($gutter * 2); }
 
-@include bp(bp5) {
+@include bp(bp3) {
 columns : 3 8em;
 column-gap : ($gutter * 2); }
 }

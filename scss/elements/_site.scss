@@ -36,7 +36,7 @@ color : $font-color;
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-font-family : $font-family; }
+font-family : $alt-font-family; }
 
 @include bp(bp4) {
 @include font-size($font-size-plus-one); }
@@ -64,10 +64,34 @@ repeating-linear-gradient(
 #180f05 24px,
 #180f05 28px); }
 
+
+
+
+
+
 .hb-bg-light {
 min-height : 100vh;
-// background-color : #332115;
-background-color : purple;
+background-color : #332115;
+/*
+background-image : 
+radial-gradient(circle at bottom left, transparent, #f00),
+repeating-linear-gradient(
+90deg,
+#24170b,
+#24170b 6px,
+#291A0b 8px,
+#3e2010 10px,
+#281A11 11px,
+#281A11 12px,
+#25170a 18px,
+#180f06 24px,
+#180f05 24px,
+#180f05 28px);
+*/
+// background-blend-mode : color, screen;
+// background-color : purple;
+
+/*
 background-image : 
 // radial-gradient(circle at bottom left, transparent, rgba($white,.5)),
 radial-gradient(circle at bottom left, transparent, #f00),
@@ -83,5 +107,9 @@ repeating-linear-gradient(
 #180f06 24px,
 #180f05 24px,
 #180f05 28px); 
-background-blend-mode : color, screen;
+background-blend-mode : color, screen; 
+
+*/
+
+
 }

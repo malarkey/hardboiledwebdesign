@@ -54,21 +54,21 @@ width : 50%; }
 .figure--horizontal {
 
 @include bp(bp4) {
-display : flex; }
+display : flex;
+align-items : flex-end; }
 
 .figure__img {
 
 @include bp(bp4) {
-outline:1px solid red;
-flex-grow : 2;
-flex-basis : 700px;
+flex : 2 1 360px;
 margin-right : $gutter; }
 }
 
 figcaption {
 
 @include bp(bp4) {
-flex-grow : 1; }
+flex : 1;
+padding-bottom : ($vertical-spacing / 2); }
 }
 
 }
@@ -87,7 +87,7 @@ flex-direction : row-reverse; }
 .figure__img {
 
 @include bp(bp4) {
-flex : 2;
+flex : 2 1 360px;
 margin-left : $gutter; }
 }
 
@@ -111,8 +111,9 @@ flex-direction : column-reverse;
 figcaption { 
 margin-bottom : ($vertical-spacing / 2);
 
-@include bp(bp4) {
-max-width : 50%; }
+@include bp(bp3) {
+max-width : 50%; 
+}
 }
 
 }
